@@ -12,7 +12,10 @@ public class Application extends Controller {
     public static void index() {
         render();
     }
-    
+    public static void culturales(){
+    	render();
+    }
+
     public static void paramos(){
     	render();
     }
