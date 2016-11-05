@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.windows.grupob_anaturales.Naturales"
     tools:showIn="@layout/activity_naturales"
-    android:background="@drawable/nubes">
+    android:background="@drawable/foto">
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -23,5 +23,5 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:textSize="25dp"
-        android:background="#a8b8eb" />
+        android:background="#e2e6f5" />
 </RelativeLayout>
