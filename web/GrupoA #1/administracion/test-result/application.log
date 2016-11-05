@@ -1,0 +1,5 @@
+04 nov 2016 23:41:18,162 INFO  ~ Starting C:\repositorio\ViveTurismoCotopaxi\web\GrupoA #1\administracion
+04 nov 2016 23:41:19,057 WARN  ~ You're running Play! in DEV mode
+04 nov 2016 23:41:19,177 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+04 nov 2016 23:45:39,975 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+04 nov 2016 23:45:39,997 INFO  ~ Application 'administracion' is now started !
