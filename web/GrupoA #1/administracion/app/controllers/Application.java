@@ -13,9 +13,14 @@ public class Application extends Controller {
         render();
     }
     public static void culturales(){
+    	
+    	render();
+    }
+    public static void naturales(){
     	render();
     }
     public static void paramos(){
     	render();
     }
+    
 }
