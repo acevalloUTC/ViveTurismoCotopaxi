@@ -16,7 +16,7 @@ public class Application extends Controller {
     	
     	render();
     }
-    public static void naturales(){
+    public static void sitios(){
     	render();
     }
     public static void paramos(){
