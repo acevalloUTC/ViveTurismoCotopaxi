@@ -15,7 +15,6 @@ public class Culturales extends Controller {
 	public static void culturales(){
 	    	render();
 	    }
-	
 public static void guardar(String nombre,String descripcion,String ubicacion,String imagen){
 		
 	Cultural cultura=new Cultural(nombre,descripcion,ubicacion,imagen);
