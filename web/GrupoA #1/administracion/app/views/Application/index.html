@@ -1,42 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="">
+#{extends 'main.html' /}
+#{set title:'Home'/}
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Vive Turismo Cotopaxi</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="/public/css/templatemo_style.css" rel="stylesheet" type="text/css" />
-
-<link rel="stylesheet" href="/public/css/coda-slider.css" type="text/css" charset="utf-8" />
-
-<script src="/public/js/jquery-1.2.6.js" type="text/javascript"></script>
-<script src="/public/js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
-<script src="/public/js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
-<script src="/public/js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
-<script src="/public/js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
-<script src="/public/js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Vive Turismo</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="public/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="public/css/font-awesome.min.css" rel="stylesheet" />
+    <!--ANIMATED FONTAWESOME STYLE CSS -->
+    <link href="public/css/font-awesome-animation.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="public/css/style.css" rel="stylesheet" />
+   
 </head>
-<body>
-	
-    <div id="slider">
-        <div id="header_wrapper">
-            <div id="header">
-            	<h1><a href="#">Free CSS </a></h1>
-            </div> <!-- end of header -->  
-        </div> <!-- end of header_wrapper -->  
-        
-    <div id="templatemo_wrapper">
+<body >
+       <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="public\img\logo.png" alt="logo" />
+                <a class="navbar-brand" href="public\img\logo.png"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home-sec">Pagina Principal</a></li>
+                    <li><a href="..\Aplication\index">Administrar</a></li>
+                     <li><a href="#price-sec">Historia</a></li>
+                    <li><a href="#contact-sec">Contacto</a></li>
+                </ul>
+            </div>
+           
+        </div>
+          <img src="public\img\barra1.jpg" alt="o" />
+    </div>
+     <!--END NAV SECTION -->
+    
+    <!--HOME SECTION-->
+    <div id="home-sec">
 
-    	
-        <div id="templatemo_sidebar">
+   
+    <div class="container" id="home" >
+        <div class="row text-center">
+            <div class="col-md-100">
+                <span class="head-main">Vive Turismo Cotopaxi</span>
+                <h2 class="head-sub-main">Administración de atranctivos uristicos</h2>
+                <h3 class="head-last">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</h3>
+                
+            </div>
+        </div>
+    </div>
+         </div>
+    <!--END HOME SECTION-->
+
+
+   
+
+    <!--SERVICES administrar-sec-->    
+    <section  id="administrar-sec">
+        <div class="container">
+            <div class="row ">
+                <h1>Administrar Atractivos Turisticos :</h1>
+                 <div class="col-md-12 g-pad-bottom">
+                  <div class="col-md-6">
+                    <h2>Intorucción</h2>
+                   <div id="templatemo_sidebar">
             <div id="menu">
-                <ul class="navigation">
-                <li><a href="#home" class="selected">Atractivos Turísticos</a></li>
-                <li><a href="#aboutus">Manifestaciones Culturales</a></li>
-                <li><a href="#services">Sitios Naturales</a></li>
-                <li><a href="application\paramos">Paramos y Aventura</a></li>
-              </ul>
+               
+               <li><a href="#home" class="selected">Atractivos Turísticos</a></li>
               <li><a href="..\Culturales\culturales">Manifestaciones Culturales</a></li>
               <li><a href="..\Sitios\sitios">Sitios Naturales</a></li>
               <li><a href="..\Paramos\paramos">Paramos y Aventura</a></li>
@@ -45,53 +90,58 @@
 		</div>  
     
         <div id="content">
-       	  	<div class="scroll">
-        	  <div class="scrollContainer">
-                <div class="panel" id="home">
-                	<div class="col_280 float_l">
-                        <h2>Introduction</h2>    
-                        <a href="#"><img src="/public/images/templatemo_image_01.jpg" alt="Image 1" class="image_wrapper" /></a>
-                        
-                      	<p><em>Nullam at erat ipsum, quis tincidunt mauris. Nunc sit amet sapien eget eros iaculis hendrerit quis a enim. Vestibulum at leo ante, vel auctor velit.</em></p>	
-                        
-                        <p align="justify">Platform Template is provided by <a href="#">templatemo</a> for anyone. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>. Feel free to use this template for your websites. Credits go to <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://jwloh.deviantart.com/art/Aquaticus-Social-91014249">jwloh</a> for Aquaticus, and <a href="http://www.icojoy.com" target="_blank">IcoJoy.com</a> for icons used in this template.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere, magna id ornare mollis, mi erat gravida massa, ac mollis lorem risus non purus.</p>
+                      </div>
+                 <div class="col-md-6">
+                    <h2>IMAGEN COTOPXI</h2>
+                                        </div>
                      </div>
-                     <div class="col_280 float_r">   
-                     	<h2>Web Design</h2>
-                        <a href="#"><img src="/public/images/templatemo_image_02.jpg" alt="Image 2" class="image_wrapper" /></a>
-                       <p>Morbi rutrum euismod elit, nec adipiscing ante sodales sed. Proin auctor, tortor vel aliquam bibendum, ligula diam aliquam nibh.</p>       
-                        <ul class="service_list">
-                            <li><a href="#">Morbi luctus vitae cursus</a></li>
-                            <li><a href="#">Pellentesq tris senectus</a></li>
-                            <li><a href="#">Duis at commodo molestie</a></li>
-                            <li><a href="#">In aliquet in libero</a></li> 
-                            <li><a href="#">Maecenas ut pretium</a></li>   
-                        </ul>
-                    </div>
-            
-                </div>
-        	    <!-- end of home -->
-        	  
-        	   
-        	   	        	
-                    
-        	        
-        	  </div>
-      	  </div>
-        	<!-- end of scroll -->
+               
+                
+                <div class="col-md-12 g-pad-bottom">
+                  <div class="col-md-12">
+                    <h2>Introducción</h2>
+                    <p>
+                         La provincia de Cotopaxi fue creada por ley, elevada por la Asamblea Constituyente, el Primero de Abril de 1851. Su capital es Latacunga.
+
+					    Se ubica en el centro norte de la cordillera de los Andes, se asienta en la hoya central oriental del Patate. La provincia de Cotopaxi 
+						se llamó en el pasado provincia de León. Antes de la venida de los españoles, su territorio estuvo habitado por diversas parcialidades 
+						indígenas que entraron por olas migratorias, serían la de los Cayapas-colorados procedentes de Centroamérica. Los atacameños, los quijos 
+						procedentes del 0riente y que habrían formado los cacicazgos independientes de Tacunga, Mulliambato y Píllaro, Quizapincha y otro. 
+						La provincia cuenta con un clima que va desde el gélido de las cumbres andinas hasta el cálido húmedo en el subtrópico occidental, 
+						la hoya que ocupa la provincia de Cotopaxi es la cuarta desde el norte.
+						
+						La provincia de Cotopaxi, a vista de propios y extraños, es poseedora de majestuosos paisajes. Su volcán de belleza fascinante, 
+						sus ríos, pueblos antiguos y modernos, monumentos, iglesias, las calles angostas de su ciudad capital, sitios de pesca, restaurantes,
+						montículos incásicos, santuarios, sus lagunas, las ferias y sitios históricos invitan a conversar y extasiarse frente a sus maravillas,
+						no sólo como fuente inagotable de inspiración artística, sino como una zona de curiosidad científica.             
+                    </p>
+                      </div>
+                 
+                     </div>
+            </div>
         </div>
-         <div class="cleaner"></div>
-        
-		</div>
-    </div> <!-- end of content -->
+    </section>
+    <!--END administrar-sec-->
+ 
+   
+  
 
-	</div>
+    <!--FOOTER SECTION -->
+      <img src="public\img\barra1.jpg" alt="o" />
+    <div id="footer">
+        2014 www.yourdomain.com | All Right Reserved | Terms | Policies | Licenses 
+         
+    </div>
+    <!-- END FOOTER SECTION -->
 
-<div id="footer">
-    Copyright © 2048 <a href="#">Vive Turismo Cotopaxi</a><br /> 
-    <div class="cleaner"></div>
-</div>
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.js"></script>
+  
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
 
 </body>
 </html>
