@@ -24,4 +24,48 @@
         android:textStyle="bold"
         android:textSize="25dp"
         android:background="#e2e6f5" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/textView2"
+        android:text="Cada cantón y parroquia conforma la Provincia y elo cuenta con atractivos culturales, naturales permitiendo el desarrollo de a flora y fauna"
+        android:textAlignment="inherit"
+        android:textStyle="bold"
+        android:layout_below="@+id/button"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aguas Subterraneas y Ambientes Lacustres"
+        android:id="@+id/button2"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#e2e6f5"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fénomenos espeol+ogicos y Geológicos"
+        android:id="@+id/button3"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#e2e6f5"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Montañas y Planicies"
+        android:id="@+id/button4"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#e2e6f5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="82dp" />
 </RelativeLayout>
