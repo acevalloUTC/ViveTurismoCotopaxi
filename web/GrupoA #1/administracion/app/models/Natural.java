@@ -1,5 +1,5 @@
 package models;
-
+import play.*;
 import play.db.jpa.Model;
 
 public class Natural extends Model {

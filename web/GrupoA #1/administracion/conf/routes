@@ -17,3 +17,4 @@ GET     /public/                                staticDir:public
 #Ruta para manejo de Culturales
 *		/culturales								Culturales.culturales
 *		/paramos								Paramos.paramos
+*		/natulares								Naturales.naturales
