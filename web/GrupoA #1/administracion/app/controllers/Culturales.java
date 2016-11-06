@@ -20,5 +20,6 @@ public static void guardar(String nombre,String descripcion,String ubicacion,Str
 		
 	Cultural cultura=new Cultural(nombre,descripcion,ubicacion,imagen);
 	cultura.save();	
+	culturales();
 }
 }
