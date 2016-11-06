@@ -19,7 +19,8 @@
         <activity android:name=".Latacunga" />
         <activity android:name=".Saquisili" />
         <activity android:name=".Pujili" />
-        <activity android:name=".Salcedo"></activity>
+        <activity android:name=".Salcedo" />
+        <activity android:name=".Lamana"></activity>
     </application>
 
 </manifest>
