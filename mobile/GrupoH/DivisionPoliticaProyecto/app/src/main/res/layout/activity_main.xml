@@ -10,8 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.divisionpoliticaproyecto.MainActivity">
 
-    <TextView
+    <Button
+        android:text="División Política"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="MostrarDP"/>
 </RelativeLayout>
