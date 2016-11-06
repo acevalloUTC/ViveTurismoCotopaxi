@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".MenuCantones" />
         <activity android:name=".Latacunga" />
-        <activity android:name=".Saquisili"></activity>
+        <activity android:name=".Saquisili" />
+        <activity android:name=".Pujili"></activity>
     </application>
 
 </manifest>
