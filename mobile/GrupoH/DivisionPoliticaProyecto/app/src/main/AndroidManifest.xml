@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuCantones" />
-        <activity android:name=".Latacunga"></activity>
+        <activity android:name=".Latacunga" />
+        <activity android:name=".Saquisili"></activity>
     </application>
 
 </manifest>
