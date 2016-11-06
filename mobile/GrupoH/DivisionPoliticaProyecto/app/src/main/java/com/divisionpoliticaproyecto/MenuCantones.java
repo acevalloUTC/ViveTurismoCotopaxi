@@ -71,6 +71,51 @@ public class MenuCantones extends AppCompatActivity {
         adapter = new ListViewAdapter(this, titulo, subtitulo, imagen);
         lista.setAdapter(adapter);
 
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                //Toast.makeText(getApplicationContext(),"Ingresando al cantón.",Toast.LENGTH_SHORT).show();
+
+                int opsion = position + 1;
+                switch (opsion)
+                {
+                    case 1:
+                        Intent mostrarCanton1 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton1);
+                        break;
+                    case 2:
+                        Intent mostrarCanton2 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton2);
+                        break;
+                    case 3:
+                        Intent mostrarCanton3 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton3);
+                        break;
+                    case 4:
+                        Intent mostrarCanton4 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton4);
+                        break;
+                    case 5:
+                        Intent mostrarCanton5 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton5);
+                        break;
+                    case 6:
+                        Intent mostrarCanton6 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton6);
+                        break;
+                    case 7:
+                        Intent mostrarCanton7 = new Intent(MenuCantones.this, Latacunga.class);
+                        startActivity(mostrarCanton7);
+                        break;
+
+                }
+
+
+
+            }
+        });
+
     }
 
     /**
