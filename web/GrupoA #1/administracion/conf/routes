@@ -13,3 +13,6 @@ GET     /public/                                staticDir:public
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+
+#Ruta para manejo de Culturales
+*		/culturales								Culturales.culturales

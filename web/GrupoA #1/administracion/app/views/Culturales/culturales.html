@@ -1,7 +1,5 @@
 #{extends 'main.html' /}
-
-
-
+#{set title:'Home'/}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="">
 <head>
@@ -45,13 +43,16 @@
               <li><a href="application\paramos">Paramos y Aventura</a></li>
             </div>
 		</div>  
-    
         <div id="content">
-       	  	<form action="#">
-	       	  	<h1><a>nombre:      </a> <input name="Nombre" type="text" placeholder="Por favor, ingresa aquí" /></h1> 	
-	       	  	<h1><a>descripción: </a> <input name="Descripcion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
-	       	  	<h1><a>ubicación: </a> <input name="Ubicacion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
-	       	 <h1><a>imagen:      </a> <input name="Imagen" type="text" placeholder="Por favor, ingresa aquí" /></h1>
+       	  	<form action="@{Culturales.guardar()}" method="post">
+       	  	
+	       	  	<h1><a>Nombre:      </a> <input name="nombre" type="text" placeholder="Por favor, ingresa aquí" /></h1> 	
+	       	  	<h1><a>Descripción: </a> <input name="descripcion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
+	       	  	<h1><a>Ubicación: </a> <input name="ubicacion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
+	       	 	<h1><a>Imagen:      </a> <input name="imagen" type="text" placeholder="Por favor, Suba la foto" /></h1>
+	       	 	
+	       	 
+	       	 
         	<button type="submit">Guardar</button>
         	</form>
 		</div>
