@@ -85,27 +85,27 @@ public class MenuCantones extends AppCompatActivity {
                         startActivity(mostrarCanton1);
                         break;
                     case 2:
-                        Intent mostrarCanton2 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton2 = new Intent(MenuCantones.this, Saquisili.class);
                         startActivity(mostrarCanton2);
                         break;
                     case 3:
-                        Intent mostrarCanton3 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton3 = new Intent(MenuCantones.this, Pujili.class);
                         startActivity(mostrarCanton3);
                         break;
                     case 4:
-                        Intent mostrarCanton4 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton4 = new Intent(MenuCantones.this, Salcedo.class);
                         startActivity(mostrarCanton4);
                         break;
                     case 5:
-                        Intent mostrarCanton5 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton5 = new Intent(MenuCantones.this, Lamana.class);
                         startActivity(mostrarCanton5);
                         break;
                     case 6:
-                        Intent mostrarCanton6 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton6 = new Intent(MenuCantones.this, Sigchos.class);
                         startActivity(mostrarCanton6);
                         break;
                     case 7:
-                        Intent mostrarCanton7 = new Intent(MenuCantones.this, Latacunga.class);
+                        Intent mostrarCanton7 = new Intent(MenuCantones.this, Pangua.class);
                         startActivity(mostrarCanton7);
                         break;
 
