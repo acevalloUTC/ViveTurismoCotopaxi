@@ -21,14 +21,13 @@ public class Tab2 extends  Fragment{
 
               return rootview;
         }
+
     public void llamar(String tel){
         try{
             startActivity(new Intent(Intent.ACTION_CALL,Uri.parse("tel:"+00000000)));
         }catch(Exception e){
             e.printStackTrace();
         }
-
-
     }
 }
 
