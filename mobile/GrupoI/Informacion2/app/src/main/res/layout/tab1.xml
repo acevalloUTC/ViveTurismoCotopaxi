@@ -9,8 +9,17 @@
     tools:context="com.example.kenshi.informacion.Informacion$PlaceholderFragment">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
 
+        <TextView
+            android:text="DATOS GENERALES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
 </RelativeLayout>
