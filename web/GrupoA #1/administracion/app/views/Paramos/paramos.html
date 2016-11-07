@@ -95,14 +95,35 @@
 		</div>  
         <div id="content">
        	  	<form action="@{Paramos.guardarparamo()}" method="post">
-
-				
-	       	  	<h1><a>Nombre:      </a> <input name="nombre" type="text" placeholder="Por favor, ingresa aquí" /></h1> 	
-	       	  	<h1><a>Descripción: </a> <input name="descripcion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
-	       	  	<h1><a>Ubicación: 	</a> <input name="ubicacion" type="text" placeholder="Por favor, ingresa aquí" /></h1>
-	       	 	<h1><a>Imagen:      </a> <input name="imagen" type="text" placeholder="Por favor, ingresa aquí" /></h1>
+<center>
+				 <table border="2px"> 
+				 	 <tr>
+						
+			       	  		<td><h3><a>Nombre:      </a> </h3></td>	
+			       	  		<td><h3> <input name="nombre" type="text" placeholder="Por favor, ingresa aquí" /></h3></td>
+			       	  	</tr>
+			       	  	<tr>
+			       	  		<td><h3><a>Descripción: </a> </h3></td> 
+			       	  		<td><h3> <input name="descripcion" type="text" placeholder="Por favor, ingresa aquí" /></h3></td>
+			       	  	</tr>
+			       	  	<tr>
+			       	  		<td><h3><a>Ubicación: 	</a> </h3></td> 
+			       	  		<td><h3> <input name="ubicacion" type="text" placeholder="Por favor, ingresa aquí" /></h3></td>
+			       	 	</tr>
+			       	 	<tr>
+			       	 		<td><h3><a>Imagen:      </a> </h3></td> 
+			       	 		<td><h3> <input name="imagen" type="text" placeholder="Por favor, ingresa aquí" /></h3></td>
+		        			
+		        	 </tr>
+		        	 <tr>
+		        	 	<td colspan="2">
+		        			<center><button type="submit">Guardar</button></center>
+		        		</td>
+		        		
+        			</tr>
         	
-        		<button type="submit">Guardar</button>
+        		</table >
+        	</center>
         	</form>
 		</div>
     </div> <!-- end of content -->
