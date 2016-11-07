@@ -22,5 +22,9 @@ public class Application extends Controller {
     public static void paramos(){
     	render();
     }
+    public static void principal(){
+    	render();
+    }
+    
     
 }

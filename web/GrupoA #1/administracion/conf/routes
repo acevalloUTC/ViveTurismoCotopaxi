@@ -18,3 +18,5 @@ GET     /public/                                staticDir:public
 *		/culturales								Culturales.culturales
 *		/paramos								Paramos.paramos
 *		/sitios								    Sitios.sitios
+*		/index								    Application.index
+*		/principal								Principal.principal
