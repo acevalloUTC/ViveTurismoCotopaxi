@@ -110,11 +110,14 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Este: Provincia de Napo Provincias de Santo Domingo"
+            android:text="Este: Provincia de Napo"
             android:textColor="@android:color/white"
             android:layout_height="wrap_content"
             android:layout_weight="wrap_content" />
-        
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Oeste: provincias de Santo Domingo"
+            android:layout_height="wrap_content" />
 
 
 
