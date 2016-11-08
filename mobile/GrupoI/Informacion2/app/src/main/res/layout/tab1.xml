@@ -113,7 +113,9 @@
             android:text="Este: Provincia de Napo Provincias de Santo Domingo"
             android:textColor="@android:color/white"
             android:layout_height="wrap_content"
-            android:layout_weight="0.74" />
+            android:layout_weight="wrap_content" />
+        
+
 
 
 
