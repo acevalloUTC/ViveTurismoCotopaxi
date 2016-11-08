@@ -9,14 +9,14 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="124dp">
+        android:layout_height="49dp">
 
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="138dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
         android:weightSum="1">
 
         <TextView
@@ -93,8 +93,8 @@
 
                         <TextView
                             android:text="Finados"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:id="@+id/textView12" />
 
                         <TableRow
@@ -132,8 +132,8 @@
 
                     <LinearLayout
                         android:orientation="horizontal"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                         <TextView
                             android:layout_width="0dp"
@@ -141,12 +141,20 @@
                             android:id="@+id/textView23"
                             android:text="CANTON SALCEDO"
                             android:maxWidth="@dimen/fab_margin" />
+
                     </LinearLayout>
+
                 </TableRow>
 
             </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:id="@+id/calendarView3"
+        android:layout_weight="1" />
 
 </FrameLayout>
