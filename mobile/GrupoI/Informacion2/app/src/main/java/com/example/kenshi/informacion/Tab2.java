@@ -22,10 +22,11 @@ public class Tab2 extends  Fragment{
               return rootview;
         }
 
-    public void llama(String tel){
+    public void llamada(View tel){
         Intent intent =new Intent(Intent.ACTION_CALL,Uri.parse("tel:+0984355242"));
-        startActivity(intent);
+    startActivity(intent);
     }
+
 
 }
 
