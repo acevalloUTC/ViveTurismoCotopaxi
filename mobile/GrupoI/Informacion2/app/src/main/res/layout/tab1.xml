@@ -11,6 +11,23 @@
     tools:context="com.example.kenshi.informacion.Informacion$PlaceholderFragment"
     android:background="@mipmap/inib">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </FrameLayout>
+
     <TextView
         android:text="Extension Territorial."
         android:layout_width="wrap_content"
@@ -52,22 +69,15 @@
         android:textColor="@android:color/white"
         android:textAlignment="viewStart" />
 
-    <TextView
-        android:text="Norte"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView29"
-        android:layout_alignParentTop="true" />
-
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="212dp"
         android:layout_below="@+id/textView19"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="13dp"
         android:layout_marginTop="14dp"
-        android:layout_toEndOf="@+id/textView17">
+        android:layout_toEndOf="@+id/textView17"
+        android:layout_height="212dp"
+        android:layout_width="match_parent">
 
         <TextView
             android:text="Limites"
@@ -87,7 +97,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout5">
+
+        <TextView
+            android:text="409,205 habitantes"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:layout_row="0"
+            android:layout_column="5" />
 
         <TextView
             android:text="Poblacion."
@@ -97,15 +118,9 @@
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textColorHighlight="@android:color/background_dark"
-            android:fontFamily="sans-serif" />
-
-        <TextView
-            android:text="409,205 habitantes"
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView11"
-            android:textSize="14sp"
-            android:textColor="@android:color/white" />
+            android:fontFamily="sans-serif"
+            android:layout_row="0"
+            android:layout_column="0" />
 
     </GridLayout>
 
