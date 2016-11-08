@@ -282,6 +282,104 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
+        botn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast16 = Toast.makeText(getContext(), "Hacienda Colonial", Toast.LENGTH_SHORT);
+                toast16.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", hc1);
+                intent.putExtra("valor2", hc2);
+                startActivity(intent);
+            }
+        });
+        botn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast16 = Toast.makeText(getContext(), "Centro Histórico", Toast.LENGTH_SHORT);
+                toast16.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", ch1);
+                intent.putExtra("valor2", ch2);
+                startActivity(intent);
+            }
+        });
+        botn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast17 = Toast.makeText(getContext(), "Artesanía de los Andes", Toast.LENGTH_SHORT);
+                toast17.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", aa1);
+                intent.putExtra("valor2", aa2);
+                startActivity(intent);
+            }
+        });
+        botn18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast18 = Toast.makeText(getContext(), "Iglesia", Toast.LENGTH_SHORT);
+                toast18.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", ig1);
+                intent.putExtra("valor2", ig2);
+                startActivity(intent);
+            }
+        });
+        botn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast19 = Toast.makeText(getContext(), "Museo", Toast.LENGTH_SHORT);
+                toast19.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", mu1);
+                intent.putExtra("valor2", mu2);
+                startActivity(intent);
+            }
+        });
+        botn20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast20 = Toast.makeText(getContext(), "Zona Arqueológica Andes", Toast.LENGTH_SHORT);
+                toast20.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", za1);
+                intent.putExtra("valor2", za2);
+                startActivity(intent);
+            }
+        });
+        botn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast21 = Toast.makeText(getContext(), "Zona Arqueológica Costa", Toast.LENGTH_SHORT);
+                toast21.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", zc1);
+                intent.putExtra("valor2", zc2);
+                startActivity(intent);
+            }
+        });
+        botn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast22 = Toast.makeText(getContext(), "Tola", Toast.LENGTH_SHORT);
+                toast22.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", to1);
+                intent.putExtra("valor2", to2);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 
