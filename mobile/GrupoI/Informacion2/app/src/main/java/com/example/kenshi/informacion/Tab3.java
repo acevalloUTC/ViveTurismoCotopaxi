@@ -221,6 +221,69 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
+        botn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast11 = Toast.makeText(getContext(), "Área Protegida", Toast.LENGTH_SHORT);
+                toast11.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", ap1);
+                intent.putExtra("valor2", ap2);
+                startActivity(intent);
+            }
+        });
+        botn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast12 = Toast.makeText(getContext(), "Cascada", Toast.LENGTH_SHORT);
+                toast12.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", ca1);
+                intent.putExtra("valor2", ca2);
+                startActivity(intent);
+            }
+        });
+
+        botn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast13 = Toast.makeText(getContext(), "Gruta", Toast.LENGTH_SHORT);
+                toast13.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", gr1);
+                intent.putExtra("valor2", gr2);
+                startActivity(intent);
+            }
+        });
+        botn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast14 = Toast.makeText(getContext(), "Lago", Toast.LENGTH_SHORT);
+                toast14.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", la1);
+                intent.putExtra("valor2", la2);
+                startActivity(intent);
+            }
+        });
+        botn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast15 = Toast.makeText(getContext(), "Mirador", Toast.LENGTH_SHORT);
+                toast15.show();
+                Intent intent = new Intent(getActivity(), Naturales.class);
+                intent.putExtra("valor1", mi1);
+                intent.putExtra("valor2", mi2);
+                startActivity(intent);
+            }
+        });
+
+
 
 
         return rootview;
