@@ -294,7 +294,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn16.setOnClickListener(new View.OnClickListener() {
+        botn17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -306,7 +306,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn17.setOnClickListener(new View.OnClickListener() {
+        botn18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -318,7 +318,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn18.setOnClickListener(new View.OnClickListener() {
+        botn19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -330,7 +330,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn19.setOnClickListener(new View.OnClickListener() {
+        botn20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -342,7 +342,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn20.setOnClickListener(new View.OnClickListener() {
+        botn21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -354,7 +354,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn21.setOnClickListener(new View.OnClickListener() {
+        botn22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -366,7 +366,7 @@ public class Tab3 extends  Fragment {
                 startActivity(intent);
             }
         });
-        botn22.setOnClickListener(new View.OnClickListener() {
+        botn23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
