@@ -7,13 +7,6 @@
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="144dp">
-
-    </LinearLayout>
-
-    <LinearLayout
         android:orientation="vertical"
         android:layout_width="125dp"
         android:layout_height="155dp"
@@ -21,7 +14,7 @@
 
         <TextView
             android:text="CALENDARIO DE ACONTECIMIENTOS"
-            android:layout_width="440dp"
+            android:layout_width="384dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView" />
 
