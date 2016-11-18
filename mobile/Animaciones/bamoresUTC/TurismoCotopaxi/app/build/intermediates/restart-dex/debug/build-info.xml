@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="hdpi"
+    format="7"
+    timestamp="12833690175682"
+    token="-1153542915072190816" >
+
+    <task
+        name="javac"
+        duration="544" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="146" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="C:\Users\BYRON\AndroidStudioProjects\TurismoCotopaxi\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="12833690175682" >
+        <artifact
+            location="C:\Users\BYRON\AndroidStudioProjects\TurismoCotopaxi\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
