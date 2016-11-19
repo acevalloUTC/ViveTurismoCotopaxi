@@ -3,7 +3,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
-#Rutas de obtencion de paginas 
+#Rutas de obtencion de paginas con el metodo get y el controlador Home 
 GET     /                           controllers.HomeController.index
 GET     /atractivos                 controllers.HomeController.atractivos
 GET     /calendario                 controllers.HomeController.calendario
