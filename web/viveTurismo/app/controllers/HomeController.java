@@ -16,6 +16,12 @@ public class HomeController extends Controller {
      * this method will be called when the application receives a
      * <code>GET</code> request with a path of <code>/</code>.
      */
+
+
+/// rendesizar a las sub paginas del menu 
+
+
+
     public Result index() {
         return ok(index.render("Your new application is ready."));
     }
@@ -28,5 +34,6 @@ public class HomeController extends Controller {
     public Result calendario(){     
         return ok(calendario.render());
     }
+
 
 }
