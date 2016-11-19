@@ -1,0 +1,19 @@
+New log file opened at Sat Nov 19 19:26:30 CET 2016 by 3776@Jessica-PC
+Taking next connection to: 52515
+New client attempting to connect on port: 52516-52515
+  Address = /10.0.2.15:52515
+This client on port 52516 has uuid 919771e1-346b-4a16-96d5-399772747535 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-919771e1-346b-4a16-96d5-399772747535
+Taking next connection to: 52515
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52515
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52515
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52515
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52515
