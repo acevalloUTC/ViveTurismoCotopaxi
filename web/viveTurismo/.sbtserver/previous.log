@@ -1,4 +1,11 @@
-New log file opened at Fri Nov 18 12:05:06 COT 2016 by 1328@Celso-PC
+New log file opened at Sat Nov 19 19:25:32 CET 2016 by 2720@Jessica-PC
+== resolving dependencies xalan#xalan;2.7.2->xalan#serializer;2.7.2 [runtime->compile]
+== resolving dependencies xalan#serializer;2.7.2->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)]
+== resolving dependencies xalan#serializer;2.7.2->xml-apis#xml-apis;1.4.01 [runtime->runtime(*)]
+== resolving dependencies xalan#serializer;2.7.2->xml-apis#xml-apis;1.4.01 [runtime->compile]
+== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.commons#commons-lang3;3.4 [runtime->runtime(*)]
+== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.commons#commons-lang3;3.4 [runtime->compile]
+== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [runtime->runtime(*)]
 == resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpclient;4.5.2 [runtime->compile]
 == resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpmime;4.5.2 [runtime->runtime(*)]
 == resolving dependencies net.sourceforge.htmlunit#htmlunit;2.20->org.apache.httpcomponents#httpmime;4.5.2 [runtime->compile]
@@ -4751,53 +4758,31 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
-:: resolution report :: resolve 20524ms :: artifacts dl 563ms
-	report for play-java#play-java_2.11;1.0-SNAPSHOT compile produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-compile.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-runtime.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT test produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-test.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT provided produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-provided.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT optional produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-optional.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT compile-internal produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-compile-internal.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime-internal produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-runtime-internal.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT test-internal produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-test-internal.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT plugin produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-plugin.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT sources produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-sources.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT docs produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-docs.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT pom produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-pom.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT scala-tool produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-scala-tool.xml
-	report for play-java#play-java_2.11;1.0-SNAPSHOT fork-run produced in C:\wordspace\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-fork-run.xml
-	resolve done (20524ms resolve - 563ms download)
+:: resolution report :: resolve 41908ms :: artifacts dl 2550ms
+	report for play-java#play-java_2.11;1.0-SNAPSHOT compile produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-compile.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-runtime.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT test produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-test.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT provided produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-provided.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT optional produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-optional.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT compile-internal produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-compile-internal.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime-internal produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-runtime-internal.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT test-internal produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-test-internal.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT plugin produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-plugin.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT sources produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-sources.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT docs produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-docs.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT pom produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-pom.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT scala-tool produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-scala-tool.xml
+	report for play-java#play-java_2.11;1.0-SNAPSHOT fork-run produced in C:\ProyectosPlay\ViveTurismoCotopaxi\web\viveTurismo\target\resolution-cache\reports\play-java-play-java_2.11-fork-run.xml
+	resolve done (41908ms resolve - 2550ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 24 s, completed 18/11/2016 12:05:17
+Total time: 51 s, completed 19-nov-2016 19:25:54
 > server-post-command-cleanup
 > server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@1282d8ae, check cycles: false
-Total time: 0 s, completed 18/11/2016 12:05:38
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/wordspace/viveTurismo/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@415d8735, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\wordspace\viveTurismo\conf\application.conf,C:\wordspace\viveTurismo\target\scala-2.11\classes\application.conf)
-	(C:\wordspace\viveTurismo\conf\logback.xml,C:\wordspace\viveTurismo\target\scala-2.11\classes\logback.xml)
-	(C:\wordspace\viveTurismo\conf\routes,C:\wordspace\viveTurismo\target\scala-2.11\classes\routes)
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 2720@Jessica-PC logs at Sat Nov 19 19:26:03 CET 2016, goodbye.
