@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CotopaxiDP" />
+        <activity android:name=".CotopaxiDP"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".LatacungaMenu"
             android:label="@string/title_activity_latacunga_menu"
