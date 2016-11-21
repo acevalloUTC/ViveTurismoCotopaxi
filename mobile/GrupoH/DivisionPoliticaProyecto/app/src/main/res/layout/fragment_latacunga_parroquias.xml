@@ -1,13 +1,114 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.LatacungaParroquias">
+    tools:context="layout.LatacungaParroquias"
+    android:background="@drawable/fondo6">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
 
-</FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <HorizontalScrollView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/lata1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lata1"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/lata2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lata2"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/lata3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lata3"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/lata4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lata4"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/lata5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lata5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parroquias Urbanas"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.96" />
+
+                <TextView
+                    style="@style/texto"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Parroquias Rurales"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:entries="@array/UrbanoLatacunga"
+                    style="@style/texto"
+                    android:layout_width="174dp"
+                    android:layout_height="159dp"
+                    android:id="@+id/listView" />
+
+                <ListView
+                    android:entries="@array/RuralLatacunga"
+                    style="@style/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/listView2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
