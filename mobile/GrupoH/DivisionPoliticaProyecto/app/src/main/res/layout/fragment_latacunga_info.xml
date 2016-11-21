@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.LatacungaInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bandera_latacunga" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se encuentra ubicado en la Provincia de Cotopaxi &apos;Tacunga&apos; equivale a asiento del nuevo curandero. Latacunga es el principal cantón de la Provincia esta constituida por parroquias urbanas y rurales."
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

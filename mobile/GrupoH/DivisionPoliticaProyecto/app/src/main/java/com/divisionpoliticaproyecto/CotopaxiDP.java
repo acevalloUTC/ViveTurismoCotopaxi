@@ -1,10 +1,12 @@
 package com.divisionpoliticaproyecto;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 
 public class CotopaxiDP extends AppCompatActivity {
 
@@ -16,6 +18,12 @@ public class CotopaxiDP extends AppCompatActivity {
         //con estas lineas se visualiza el boton atras de la parte superior izquierda
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+    }
+
+    public void Latacunga(View view)
+    {
+        Intent pasar = new Intent(CotopaxiDP.this, LatacungaMenu.class);
+        startActivity(pasar);
     }
 
     /**
