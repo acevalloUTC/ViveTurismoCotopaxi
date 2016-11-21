@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.SalcedoInfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bandera_salcedo" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se encuentra ubicado en la Provincia de Cotopaxi Salcedo principalmente fue territorio de la cultura Panzaleo. Se localiza en la zona central de la serranía ecuatoriana."
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

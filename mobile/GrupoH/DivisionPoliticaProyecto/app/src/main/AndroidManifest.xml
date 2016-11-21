@@ -23,6 +23,10 @@
         <activity
             android:name=".LaManaMenu"
             android:label="@string/title_activity_la_mana_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SalcedoMenu"
+            android:label="@string/title_activity_salcedo_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
