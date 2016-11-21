@@ -1,13 +1,45 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="layout.PujiliInfo">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bandera_pujili" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Cantón Pujilí, debe su nombre y lo conserva de su denominación kichua Ayllu de Puxilí, nombre dado en épocas prehistóricas los territorios que conforman actuanmente el cantón Pujilí, estuvieron Habitados por el pueblo de Panzaleo."
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
