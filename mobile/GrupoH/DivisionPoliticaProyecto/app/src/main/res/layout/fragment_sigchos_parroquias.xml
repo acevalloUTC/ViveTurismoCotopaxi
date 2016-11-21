@@ -1,13 +1,122 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.SigchosParroquias">
+    tools:context="layout.SigchosParroquias"
+    android:background="@drawable/fondo7">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
 
-</FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <HorizontalScrollView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos11"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos1"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos2"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos3"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos4"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos5"
+                        />
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:id="@+id/sigchos6"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos6"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parroquias Urbanas"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.96" />
+
+                <TextView
+                    style="@style/texto"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Parroquias Rurales"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:entries="@array/UrbanoSigchos"
+                    style="@style/texto"
+                    android:layout_width="174dp"
+                    android:layout_height="159dp"
+                    android:id="@+id/listView"/>
+
+                <ListView
+                    android:entries="@array/RuralSigchos"
+                    style="@style/texto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/listView2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
