@@ -11,4 +11,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_la_mana_menu">LaManaMenu</string>
     <string name="title_activity_salcedo_menu">SalcedoMenu</string>
+    <string name="title_activity_pujili_menu">PujiliMenu</string>
+    <string name="title_activity_saquisili_menu">SaquisiliMenu</string>
 </resources>

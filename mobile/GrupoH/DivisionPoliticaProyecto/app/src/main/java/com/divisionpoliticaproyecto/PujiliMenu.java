@@ -19,7 +19,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class SalcedoMenu extends AppCompatActivity {
+public class PujiliMenu extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -39,7 +39,7 @@ public class SalcedoMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_salcedo_menu);
+        setContentView(R.layout.activity_pujili_menu);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -62,7 +62,7 @@ public class SalcedoMenu extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_salcedo_menu, menu);
+        getMenuInflater().inflate(R.menu.menu_pujili_menu, menu);
         return true;
     }
 
@@ -112,19 +112,19 @@ public class SalcedoMenu extends AppCompatActivity {
 
             if(getArguments().getInt(ARG_SECTION_NUMBER)== 1)
             {
-                View rootView = inflater.inflate(R.layout.fragment_salcedo_simbolos, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_pujili_simbolos, container, false);
                 return rootView;
             }else if(getArguments().getInt(ARG_SECTION_NUMBER)== 2)
             {
-                View rootView = inflater.inflate(R.layout.fragment_salcedo_info, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_pujili_info, container, false);
                 return rootView;
             } if(getArguments().getInt(ARG_SECTION_NUMBER)== 3)
             {
-                View rootView = inflater.inflate(R.layout.fragment_salcedo_parroquias, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_pujili_parroquias, container, false);
                 return rootView;
             }
             else {
-                View rootView = inflater.inflate(R.layout.fragment_salcedo_menu, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_pujili_menu, container, false);
                 TextView textView = (TextView) rootView.findViewById(R.id.section_label);
                 textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
                 return rootView;

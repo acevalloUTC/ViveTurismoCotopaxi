@@ -26,7 +26,8 @@
         android:background="@drawable/btn_saquisili"
         android:layout_marginBottom="53dp"
         android:layout_above="@+id/button6"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_toStartOf="@+id/textView"
+        android:onClick="Saquisili"/>
 
     <Button
         android:layout_width="45dp"
@@ -64,7 +65,8 @@
         android:background="@drawable/btn_pujili"
         android:layout_marginBottom="25dp"
         android:layout_above="@+id/button7"
-        android:layout_toStartOf="@+id/button2" />
+        android:layout_toStartOf="@+id/button2"
+        android:onClick="Pujili"/>
 
     <Button
         android:layout_width="45dp"

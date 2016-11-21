@@ -27,6 +27,14 @@
         <activity
             android:name=".SalcedoMenu"
             android:label="@string/title_activity_salcedo_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PujiliMenu"
+            android:label="@string/title_activity_pujili_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaquisiliMenu"
+            android:label="@string/title_activity_saquisili_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
