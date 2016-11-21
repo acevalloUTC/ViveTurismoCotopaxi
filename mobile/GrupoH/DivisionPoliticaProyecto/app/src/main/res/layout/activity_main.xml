@@ -10,12 +10,12 @@
     tools:context="com.divisionpoliticaproyecto.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:text="COTOPAXI"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:onClick="Pasar"
-        />
+        android:background="@drawable/btn_circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
