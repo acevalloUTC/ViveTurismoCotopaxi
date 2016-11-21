@@ -11,10 +11,73 @@
     android:background="@drawable/cotopaxi">
 
     <TextView
+        style="@style/tituloCotopaxi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cotopaxi"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button2"
+        android:background="@drawable/btn_saquisili"
+        android:layout_marginBottom="53dp"
+        android:layout_above="@+id/button6"
+        android:layout_toStartOf="@+id/textView" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button3"
+        android:background="@drawable/btn_latacunga"
+        android:layout_below="@+id/button5"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="35dp" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button4"
+        android:background="@drawable/btn_sigchos"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/button5"
+        android:layout_toStartOf="@+id/button2" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button5"
+        android:background="@drawable/btn_mana"
+        android:layout_marginStart="48dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button6"
+        android:background="@drawable/btn_pujili"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/button7"
+        android:layout_toStartOf="@+id/button2" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button7"
+        android:background="@drawable/btn_pangua"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/button8"
+        android:background="@drawable/btn_salcedo"
+        android:layout_alignTop="@+id/button7"
+        android:layout_toStartOf="@+id/button3" />
 </RelativeLayout>
