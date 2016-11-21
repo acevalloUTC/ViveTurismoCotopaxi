@@ -15,14 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuCantones" />
-        <activity android:name=".Latacunga" />
-        <activity android:name=".Saquisili" />
-        <activity android:name=".Pujili" />
-        <activity android:name=".Salcedo" />
-        <activity android:name=".Lamana" />
-        <activity android:name=".Pangua" />
-        <activity android:name=".Sigchos"></activity>
     </application>
 
 </manifest>
