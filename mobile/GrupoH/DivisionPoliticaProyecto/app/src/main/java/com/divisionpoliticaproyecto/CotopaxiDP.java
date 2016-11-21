@@ -56,6 +56,12 @@ public class CotopaxiDP extends AppCompatActivity {
         startActivity(pasar);
     }
 
+    public void Sigchos(View view)
+    {
+        Intent pasar = new Intent(CotopaxiDP.this, SigchosMenu.class);
+        startActivity(pasar);
+    }
+
     /**
      * con esta funcion se activa el boton atras para que regrese a la anterior activiti
      */
