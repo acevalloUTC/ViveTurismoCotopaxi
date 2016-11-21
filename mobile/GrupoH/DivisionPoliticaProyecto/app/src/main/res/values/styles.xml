@@ -28,6 +28,23 @@
         <item name="android:layout_margin">10dp</item>
     </style>
 
+    <style name="fondo">
+        <item name="android:background">#FF000000</item>
+    </style>
+
+    <style name="texto">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
