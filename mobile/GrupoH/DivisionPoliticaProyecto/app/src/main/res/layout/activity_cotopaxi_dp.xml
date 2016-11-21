@@ -51,10 +51,11 @@
         android:layout_width="45dp"
         android:layout_height="30dp"
         android:id="@+id/button5"
-        android:background="@drawable/btn_mana"
+        android:background="@drawable/btn_lamana"
         android:layout_marginStart="48dp"
         android:layout_above="@+id/button2"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="LaMana"/>
 
     <Button
         android:layout_width="45dp"

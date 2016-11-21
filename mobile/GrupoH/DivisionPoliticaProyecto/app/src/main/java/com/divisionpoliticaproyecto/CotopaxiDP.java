@@ -26,6 +26,12 @@ public class CotopaxiDP extends AppCompatActivity {
         startActivity(pasar);
     }
 
+    public void LaMana(View view)
+    {
+        Intent pasar = new Intent(CotopaxiDP.this, LaManaMenu.class);
+        startActivity(pasar);
+    }
+
     /**
      * con esta funcion se activa el boton atras para que regrese a la anterior activiti
      */

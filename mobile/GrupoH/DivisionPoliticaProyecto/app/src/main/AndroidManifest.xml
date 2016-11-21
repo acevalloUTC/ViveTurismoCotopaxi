@@ -19,6 +19,10 @@
         <activity
             android:name=".LatacungaMenu"
             android:label="@string/title_activity_latacunga_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LaManaMenu"
+            android:label="@string/title_activity_la_mana_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

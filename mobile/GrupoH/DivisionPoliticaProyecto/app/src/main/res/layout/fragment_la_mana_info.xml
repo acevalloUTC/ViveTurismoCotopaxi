@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.LaManaInfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bandera_lamana" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El nombre la Maná se origina de varias teorías, existen versiones sobre la palabra La Maná, que proviene de los vocablos 'LANG MANA ATTI', que significa 'Mina del Garn Rey',esto debido a la existencia de de extensas minas de oro y otros minerales."
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
