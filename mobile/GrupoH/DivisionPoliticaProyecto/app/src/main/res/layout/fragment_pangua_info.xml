@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.PanguaInfo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bandera_pangua" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El nombre Pangua, proviene de un vocablo de cultura Cayapa, por lo cual Pangua es igual a Panguapi que significa 'AGUA NUEVA'. Los panguenses han construido su identidad y reconocimiento de ser un pueblo nobre y valiente en base a su nombre. En 1889 los pobladores del recinto Pangua, solicitan ser reconocidos como Parroquia Eclesiástica."
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

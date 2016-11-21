@@ -75,7 +75,8 @@
         android:background="@drawable/btn_pangua"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button5"
-        android:layout_marginBottom="28dp" />
+        android:layout_marginBottom="28dp"
+        android:onClick="Pangua"/>
 
     <Button
         android:layout_width="45dp"

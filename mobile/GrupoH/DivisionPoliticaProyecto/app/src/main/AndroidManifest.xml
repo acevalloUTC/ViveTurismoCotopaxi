@@ -35,6 +35,10 @@
         <activity
             android:name=".SaquisiliMenu"
             android:label="@string/title_activity_saquisili_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PanguaMenu"
+            android:label="@string/title_activity_pangua_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
