@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.PanguaParroquias"
-    android:background="@drawable/fondo14">
+    tools:context="layout.PanguaParroquias">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -24,7 +23,7 @@
 
             <HorizontalScrollView
                 android:layout_width="250dp"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:id="@+id/horizontalScrollView"
                 android:layout_gravity="center_horizontal"
                 >
@@ -34,7 +33,7 @@
                     android:layout_height="wrap_content">
                     <ImageView
                         android:layout_width="250dp"
-                        android:layout_height="300dp"
+                        android:layout_height="200dp"
                         android:id="@+id/pangua1"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/pangua1"
@@ -100,7 +99,7 @@
                     android:entries="@array/UrbanoPangua"
                     style="@style/texto"
                     android:layout_width="174dp"
-                    android:layout_height="159dp"
+                    android:layout_height="280dp"
                     android:id="@+id/listView" />
 
                 <ListView
