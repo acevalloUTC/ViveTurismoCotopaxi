@@ -2,9 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.PanguaParroquias">
+    tools:context="layout.PanguaParroquias"
+    android:background="@drawable/fondo1">
 
     <ScrollView
+        style="@style/layoutSimbolos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
@@ -18,10 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
-
-
             <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
                 android:layout_width="250dp"
                 android:layout_height="200dp"
                 android:id="@+id/horizontalScrollView"
@@ -32,39 +32,28 @@
                     android:orientation="horizontal"
                     android:layout_height="wrap_content">
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
                         android:layout_height="200dp"
                         android:id="@+id/pangua1"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/pangua1"
+                        android:src="@drawable/pangua6"
                         />
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
-                        android:layout_height="300dp"
+                        android:layout_height="200dp"
                         android:id="@+id/pangua2"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/pangua2"
+                        android:src="@drawable/pangua7"
                         />
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
-                        android:layout_height="300dp"
+                        android:layout_height="200dp"
                         android:id="@+id/pangua3"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/pangua3"
-                        />
-                    <ImageView
-                        android:layout_width="250dp"
-                        android:layout_height="300dp"
-                        android:id="@+id/pangua4"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/pangua4"
-                        />
-                    <ImageView
-                        android:layout_width="250dp"
-                        android:layout_height="300dp"
-                        android:id="@+id/pangua5"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/pangua5"
+                        android:src="@drawable/pangua8"
                         />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -76,11 +65,11 @@
 
                 <TextView
                     style="@style/texto"
-                    android:layout_width="wrap_content"
+                    android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:text="Parroquias Urbanas"
                     android:id="@+id/textView"
-                    android:layout_weight="0.96" />
+                    android:layout_weight="0.08" />
 
                 <TextView
                     style="@style/texto"
@@ -97,18 +86,24 @@
 
                 <ListView
                     android:entries="@array/UrbanoPangua"
-                    style="@style/texto"
-                    android:layout_width="174dp"
-                    android:layout_height="280dp"
+                    style="@style/listasP"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
                     android:id="@+id/listView" />
 
                 <ListView
                     android:entries="@array/RuralPangua"
-                    style="@style/texto"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    style="@style/listasP"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
                     android:id="@+id/listView2" />
             </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

@@ -3,9 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="layout.SaquisiliSimbolos"
-    style="@style/fondo">
+    style="@style/fondo"
+    android:background="@drawable/fondo1">
 
     <ScrollView
+        style="@style/layoutSimbolos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
@@ -48,6 +50,11 @@
                 android:layout_height="170dp"
                 android:id="@+id/imageView2"
                 android:src="@drawable/escudo_saquisili" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
 
     </ScrollView>

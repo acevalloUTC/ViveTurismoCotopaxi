@@ -2,10 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.PanguaInfo">
+    tools:context="layout.PanguaInfo"
+    android:background="@drawable/fondo1">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2" >
 
@@ -14,6 +16,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -21,18 +77,32 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
+            <TextView
+                style="@style/textoInfo"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_pangua" />
+                android:layout_height="wrap_content"
+                android:text="El nombre Pangua, proviene de un vocablo de cultura Cayapa, por lo cual Pangua es igual a Panguapi que significa 'AGUA NUEVA'."
+                android:id="@+id/textView4" />
 
             <TextView
                 style="@style/textoInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="El nombre Pangua, proviene de un vocablo de cultura Cayapa, por lo cual Pangua es igual a Panguapi que significa 'AGUA NUEVA'. Los panguenses han construido su identidad y reconocimiento de ser un pueblo nobre y valiente en base a su nombre. En 1889 los pobladores del recinto Pangua, solicitan ser reconocidos como Parroquia Eclesiástica."
-                android:id="@+id/textView4" />
+                android:text="Los panguenses han construido su identidad y reconocimiento de ser un pueblo nobre y valiente en base a su nombre. En 1889 los pobladores del recinto Pangua, solicitan ser reconocidos como Parroquia Eclesiástica."
+                android:id="@+id/textView5" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El cantón Pangua se encuentra a una altutud que oscila entre 100 y 3600 m.s.n.m., cuenta con una temperatura de 15 a 20°C. Su extensión de 719,2km2; se encuentra a 127 km desde Latacunga por la vía Pujilí - Angamarca - El Corazón."
+                android:id="@+id/textView6" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

@@ -2,10 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.LaManaInfo">
+    tools:context="layout.LaManaInfo"
+    android:background="@drawable/fondo1">
+
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2"
         android:layout_alignParentLeft="true"
@@ -18,6 +21,61 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/lata1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lamana1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/lata2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lamana2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/lata3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lamana3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/lata4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lamana4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/lata5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/lamana5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -25,11 +83,6 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_lamana" />
 
             <TextView
                 style="@style/textoInfo"
@@ -37,6 +90,26 @@
                 android:layout_height="wrap_content"
                 android:text="El nombre la Maná se origina de varias teorías, existen versiones sobre la palabra La Maná, que proviene de los vocablos 'LANG MANA ATTI', que significa 'Mina del Garn Rey',esto debido a la existencia de de extensas minas de oro y otros minerales."
                 android:id="@+id/textView4" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finalmente, según la Biblia MANÄ significa comida, alimento, abundancia de productos, tierra fértil regalada por Dios."
+                android:id="@+id/textView5" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El cantón se encuentra localizado en las estribaciones de la cordillera occidental de Los Andes, en este cantón se presentan temperaturas entre 23 y 25 °C y una precipitación que varía entre 1200 y 1500 mm anuales. Cuenta con una altitud  de 200 y 1150 m.s.nm. y una extensión territorial de 660,80 Km2. Este cantón se encuntra a 150km de la capital provincial. "
+                android:id="@+id/textView6" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

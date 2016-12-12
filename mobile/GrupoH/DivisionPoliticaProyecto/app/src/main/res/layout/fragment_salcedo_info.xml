@@ -2,10 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.SalcedoInfo">
+    tools:context="layout.SalcedoInfo"
+    android:background="@drawable/fondo1">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2" >
 
@@ -14,6 +16,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/salcedo1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/salcedo1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/salcedo2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/salcedo2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/salcedo3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/salcedo3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/salcedo4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/salcedo4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/salcedo5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/salcedo5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -21,18 +77,24 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_salcedo" />
-
             <TextView
                 style="@style/textoInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Se encuentra ubicado en la Provincia de Cotopaxi Salcedo principalmente fue territorio de la cultura Panzaleo. Se localiza en la zona central de la serranía ecuatoriana."
                 android:id="@+id/textView4" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El cantón se localiza en la zona central de la serranía ecuatoriana, tiene una temperatura que varía entre 7 a 14 °C, su altitud media es de 2650 m.s.n.m.; con una extesión de 468,2 km2, se encuentra a 14,8 km de la capital provincial."
+                android:id="@+id/textView5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

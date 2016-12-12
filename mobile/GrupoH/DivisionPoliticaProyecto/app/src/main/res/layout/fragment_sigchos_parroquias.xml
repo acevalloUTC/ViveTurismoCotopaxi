@@ -2,9 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.SigchosParroquias">
+    tools:context="layout.SigchosParroquias"
+    android:background="@drawable/fondo1">
 
     <ScrollView
+        style="@style/layoutSimbolos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
@@ -20,6 +22,7 @@
 
 
             <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
                 android:layout_width="250dp"
                 android:layout_height="200dp"
                 android:id="@+id/horizontalScrollView"
@@ -30,46 +33,28 @@
                     android:orientation="horizontal"
                     android:layout_height="wrap_content">
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
                         android:layout_height="200dp"
                         android:id="@+id/sigchos11"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos1"
+                        android:src="@drawable/sigchos6"
                         />
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
-                        android:layout_height="300dp"
+                        android:layout_height="200dp"
                         android:id="@+id/sigchos2"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos2"
+                        android:src="@drawable/sigchos7"
                         />
                     <ImageView
+                        style="@style/imagenesSlider"
                         android:layout_width="250dp"
-                        android:layout_height="300dp"
+                        android:layout_height="200dp"
                         android:id="@+id/sigchos3"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos3"
-                        />
-                    <ImageView
-                        android:layout_width="250dp"
-                        android:layout_height="300dp"
-                        android:id="@+id/sigchos4"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos4"
-                        />
-                    <ImageView
-                        android:layout_width="250dp"
-                        android:layout_height="300dp"
-                        android:id="@+id/sigchos5"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos5"
-                        />
-                    <ImageView
-                        android:layout_width="250dp"
-                        android:layout_height="300dp"
-                        android:id="@+id/sigchos6"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sigchos6"
+                        android:src="@drawable/sigchos8"
                         />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -81,11 +66,11 @@
 
                 <TextView
                     style="@style/texto"
-                    android:layout_width="wrap_content"
+                    android:layout_width="178dp"
                     android:layout_height="wrap_content"
                     android:text="Parroquias Urbanas"
                     android:id="@+id/textView"
-                    android:layout_weight="0.96" />
+                    android:layout_weight="0.04" />
 
                 <TextView
                     style="@style/texto"
@@ -102,18 +87,23 @@
 
                 <ListView
                     android:entries="@array/UrbanoSigchos"
-                    style="@style/texto"
+                    style="@style/listasP"
                     android:layout_width="180dp"
-                    android:layout_height="280dp"
+                    android:layout_height="150dp"
                     android:id="@+id/listView"/>
 
                 <ListView
                     android:entries="@array/RuralSigchos"
-                    style="@style/texto"
+                    style="@style/listasP"
                     android:layout_width="180dp"
-                    android:layout_height="280dp"
+                    android:layout_height="150dp"
                     android:id="@+id/listView2"/>
             </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

@@ -4,11 +4,21 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.ViewSwitcher;
 
 import com.divisionpoliticaproyecto.R;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -49,6 +59,7 @@ public class LaManaParroquias extends Fragment {
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
+
         return fragment;
     }
 
@@ -61,11 +72,31 @@ public class LaManaParroquias extends Fragment {
         }
     }
 
+
+    /**
+     * CODIGO PARA SLIDER
+     */
+    private ImageSwitcher imageSwitcher;
+    //aqui se hace un vector de imagenes
+    private int[] gallery = { R.drawable.lamana1, R.drawable.lamana2, R.drawable.lamana3,
+            R.drawable.lamana4, R.drawable.lamana5};
+
+    private int position;
+
+    private static final Integer DURATION = 2500;
+
+    private Timer timer = null;
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_la_mana_parroquias, container, false);
+        //return inflater.inflate(R.layout.fragment_la_mana_parroquias, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_la_mana_parroquias, container, false);
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

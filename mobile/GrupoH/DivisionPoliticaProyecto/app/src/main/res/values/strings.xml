@@ -1,20 +1,20 @@
 <resources>
-    <string name="app_name">DivisionPoliticaProyecto</string>
-    <string name="title_activity_canton_salcedo">CantonSalcedo</string>
+    <string name="app_name">DivisionPolitica</string>
+    <string name="title_activity_canton_salcedo">Salcedo</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_canton_latacunga">CantonLatacunga</string>
-    <string name="title_activity_canton_latacunga_menu">CantonLatacungaMenu</string>
-    <string name="title_activity_latacunga_menu">LatacungaMenu</string>
+    <string name="title_activity_canton_latacunga">Latacunga</string>
+    <string name="title_activity_canton_latacunga_menu">Latacunga</string>
+    <string name="title_activity_latacunga_menu">Latacunga</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_la_mana_menu">LaManaMenu</string>
-    <string name="title_activity_salcedo_menu">SalcedoMenu</string>
-    <string name="title_activity_pujili_menu">PujiliMenu</string>
-    <string name="title_activity_saquisili_menu">SaquisiliMenu</string>
-    <string name="title_activity_pangua_menu">PanguaMenu</string>
-    <string name="title_activity_sigchos_menu">SigchosMenu</string>
+    <string name="title_activity_la_mana_menu">La Mana</string>
+    <string name="title_activity_salcedo_menu">Salcedo</string>
+    <string name="title_activity_pujili_menu">Pujili</string>
+    <string name="title_activity_saquisili_menu">Saquisili</string>
+    <string name="title_activity_pangua_menu">Pangua</string>
+    <string name="title_activity_sigchos_menu">Sigchos</string>
 
     <string-array name="UrbanoLatacunga">
         <item>Latacunga</item>

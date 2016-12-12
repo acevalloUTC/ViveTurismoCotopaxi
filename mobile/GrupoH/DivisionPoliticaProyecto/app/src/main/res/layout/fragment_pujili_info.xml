@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.PujiliInfo">
+    tools:context="layout.PujiliInfo"
+    android:background="@drawable/fondo1">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2"
         android:layout_alignParentLeft="true"
@@ -20,6 +22,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pujili1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pujili1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pujili2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pujili2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pujili3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pujili3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pujili4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pujili4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pujili5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pujili5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -27,18 +83,25 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_pujili" />
-
             <TextView
                 style="@style/textoInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="El Cantón Pujilí, debe su nombre y lo conserva de su denominación kichua Ayllu de Puxilí, nombre dado en épocas prehistóricas los territorios que conforman actuanmente el cantón Pujilí, estuvieron Habitados por el pueblo de Panzaleo."
                 android:id="@+id/textView4" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Cantón Pujilí se caracteriza por ser boscoso y de clima templado, cuenta con temperarturas de entre 8 y 23 °C, una altitud de 2870 m.s.n.m. y una extensión territorial de 1318,32 km2; se encuentra a 10 km de la capital provincial."
+                android:id="@+id/textView5" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

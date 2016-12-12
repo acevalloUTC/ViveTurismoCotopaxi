@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.SigchosInfo">
+    tools:context="layout.SigchosInfo"
+    android:background="@drawable/fondo1">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2" >
 
@@ -16,6 +18,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/sigchos11"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/sigchos2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/sigchos3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/sigchos4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/sigchos5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sigchos5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -23,18 +79,31 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
+            <TextView
+                style="@style/textoInfo"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_sigchos" />
+                android:layout_height="wrap_content"
+                android:text="El Cantón Sigchos, es considerado una de las poblaciones mas antiguas del país, se ha calculado que fue habitada hace miles de años, incluso antes de la era cristiana."
+                android:id="@+id/textView4" />
 
             <TextView
                 style="@style/textoInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="El Cantón Sigchos, es considerado una de las poblaciones mas antiguas del país, se ha calculado que fue habitada hace miles de años, incluso antes de la era cristiana. Sus primeros habitantes eran parte de las 16 tribus del Estado Independiente Sur, de este modo se asentaron los Yanaconas que provenían de Latacunga, y eran descendientes de los Panzaleos."
-                android:id="@+id/textView4" />
+                android:text="Sus primeros habitantes eran parte de las 16 tribus del Estado Independiente Sur, de este modo se asentaron los Yanaconas que provenían de Latacunga, y eran descendientes de los Panzaleos."
+                android:id="@+id/textView5" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El cantón se localiza en a zona noroccidental de la Provincia de Cotopaxi, cuenta con temperaturas entre 9 y 24 °C. Su altitud media es de 2480 m.s.n.m. y su extensión territorial de 1357,84 km2; se encuentra a 67,6 km de la capital provincial."
+                android:id="@+id/textView6" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

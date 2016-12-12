@@ -2,10 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.SaquisiliInfo">
+    tools:context="layout.SaquisiliInfo"
+    android:background="@drawable/fondo1">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        style="@style/layoutSimbolos"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView2" >
 
@@ -14,6 +16,60 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/saquisili1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/saquisili1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/saquisili2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/saquisili2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/saquisili3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/saquisili3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/saquisili4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/saquisili4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/saquisili5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/saquisili5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
@@ -21,18 +77,24 @@
                 android:text="Datos Generales"
                 android:id="@+id/textView3" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:id="@+id/imageView3"
-                android:src="@drawable/bandera_saquisili" />
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En 1510, se declara a Saquisilí parroquia ecleciástica, cuyo patrono era San Juan Bautizta y se encontraba Gobernada por sacerdotes franciscanos. El 18 de Octubre de 1943 logra su cantonización."
+                android:id="@+id/textView4" />
 
             <TextView
                 style="@style/textoInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="En 1510, se declara a Saquisilí parroquia ecleciástica, cuyo patrono era San Juan Bautizta y se encontraba Gobernada por sacerdotes."
-                android:id="@+id/textView4" />
+                android:text="El Cantón Saquisilí cuenta con temperaturas entre 8 y 14 °C, una altitud de 2240 a 4280 m.s.n.m. y una extensión territorial de 156,5 km2; ubicado a 13 km de la capital provincial."
+                android:id="@+id/textView5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
 

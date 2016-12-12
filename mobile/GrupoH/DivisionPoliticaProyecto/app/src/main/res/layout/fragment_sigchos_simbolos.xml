@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="layout.SigchosSimbolos"
-    style="@style/fondo">
+    style="@style/fondo"
+    android:background="@drawable/fondo1">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ScrollView
+        style="@style/layoutSimbolos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
@@ -22,7 +24,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="300dp"
             android:weightSum="1">
 
             <TextView
@@ -46,10 +48,16 @@
                 android:id="@+id/textView5" />
 
             <ImageView
+
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
                 android:id="@+id/imageView2"
                 android:src="@drawable/escudo_sigchos" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/franja1"
+                android:src="@drawable/franja1" />
         </LinearLayout>
 
     </ScrollView>
