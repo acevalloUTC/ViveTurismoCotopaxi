@@ -1,0 +1,322 @@
+package com.example.anderson.informacion;
+
+/**
+ * Created by Kenshi on 05/11/2016.
+ */
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class Tab3 extends  Fragment {
+
+    private TextView Descripcion,Titulo;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View rootview = inflater.inflate(R.layout.tab3, container, false);
+
+
+        ImageButton btnLanzarActivity = (ImageButton) rootview.findViewById(R.id.btn1);
+        ImageButton botn2 = (ImageButton) rootview.findViewById(R.id.btn2);
+        ImageButton botn3 = (ImageButton) rootview.findViewById(R.id.btn3);
+        ImageButton botn4 = (ImageButton) rootview.findViewById(R.id.btn4);
+        ImageButton botn5 = (ImageButton) rootview.findViewById(R.id.btn5);
+        ImageButton botn6 = (ImageButton) rootview.findViewById(R.id.btn6);
+        ImageButton botn7 = (ImageButton) rootview.findViewById(R.id.btn7);
+        ImageButton botn8 = (ImageButton) rootview.findViewById(R.id.btn8);
+        ImageButton botn9 = (ImageButton) rootview.findViewById(R.id.btn9);
+        ImageButton botn10 = (ImageButton) rootview.findViewById(R.id.btn10);
+        ImageButton botn11= (ImageButton) rootview.findViewById(R.id.btn11);
+        ImageButton botn12 = (ImageButton) rootview.findViewById(R.id.btn12);
+        ImageButton botn13 = (ImageButton) rootview.findViewById(R.id.btn13);
+        ImageButton botn14 = (ImageButton) rootview.findViewById(R.id.btn14);
+        ImageButton botn15 = (ImageButton) rootview.findViewById(R.id.btn15);
+        ImageButton botn16= (ImageButton) rootview.findViewById(R.id.btn16);
+        ImageButton botn17 = (ImageButton) rootview.findViewById(R.id.btn17);
+        ImageButton botn18 = (ImageButton) rootview.findViewById(R.id.btn18);
+        ImageButton botn19 = (ImageButton) rootview.findViewById(R.id.btn19);
+        ImageButton botn20 = (ImageButton) rootview.findViewById(R.id.btn20);
+        ImageButton botn21 = (ImageButton) rootview.findViewById(R.id.btn21);
+        ImageButton botn22 = (ImageButton) rootview.findViewById(R.id.btn22);
+        ImageButton botn23 = (ImageButton) rootview.findViewById(R.id.btn23);
+
+
+        Descripcion = (TextView)rootview.findViewById(R.id.descrip);
+        Titulo = (TextView) rootview.findViewById(R.id.titulo);
+        Titulo.setText("Manifestación Cultural");
+        Descripcion.setText("El núcleo de la cultura popular ecuatoriana es lo religioso mesclado con tradiciones aborígenes: centro de su sistema planetario a cuyo alrededor giran las costumbres, el turismo, las tradiciones en cuya esencia viven las tradiciones.");
+
+
+        btnLanzarActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast1 = Toast.makeText(getContext(), "Manifestación Cultural", Toast.LENGTH_SHORT);
+                toast1.show();
+                Titulo.setText("Manifestación Cultural");
+                Descripcion.setText("El núcleo de la cultura popular ecuatoriana es lo religioso mesclado con tradiciones aborígenes: centro de su sistema planetario a cuyo alrededor giran las costumbres, el turismo, las tradiciones en cuya esencia viven las tradiciones.");
+
+
+            }
+        });
+
+        botn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast2 = Toast.makeText(getContext(), "Sitio Natural", Toast.LENGTH_SHORT);
+                toast2.show();
+                Titulo.setText("Sitio Natural");
+                Descripcion.setText("Un paisaje es la extensión de un terreno que se observa desde un determinado lugar y que estará conformado por las características naturales del entorno en cuestión como asimismo por la intervención del ser humano sobre el mismo, construcciones, daños ambientales, entre otras.");
+
+            }
+        });
+
+
+        botn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast3 = Toast.makeText(getContext(), "Parapente", Toast.LENGTH_SHORT);
+                toast3.show();
+                Titulo.setText("Parapente");
+                Descripcion.setText("El ala, y a veces todo el equipo, se llama así con el mismo nombre, parapente. La definición técnica sería algo así: planeador ligero flexible. Planeador porque no consta de motor y flexible porque no hay partes rígidas que compongan el ala, por lo que puede ser transportado en el maletero de un coche.");
+
+            }
+        });
+
+        botn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast4 = Toast.makeText(getContext(), "Juegos Infantiles", Toast.LENGTH_SHORT);
+                toast4.show();
+                Titulo.setText("Juegos Infantiles");
+                Descripcion.setText("Un espacio de recreación o una zona de juegos es un espacio público especialmente acondicionado para la realización de actividades recreativas libres, particularmente orientadas a los niños, incluyen juegos infantiles tales como columpios (o hamacas), toboganes, balancines (o subeybaja), etc");
+
+            }
+        });
+
+        botn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast5 = Toast.makeText(getContext(), "Escalada", Toast.LENGTH_SHORT);
+                toast5.show();
+                Titulo.setText("Escalada");
+                Descripcion.setText("La escalada, en montañismo, es una actividad que consiste en realizar ascensos sobre paredes de fuerte pendiente, valiéndose de la fuerza física y mental propia. Se considera escalada todo ascenso ya sea fácil, difícil o imposible de realizar.");
+
+            }
+        });
+
+        botn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast6 = Toast.makeText(getContext(), "Agroturismo", Toast.LENGTH_SHORT);
+                toast6.show();
+                Titulo.setText("Agroturismo");
+                Descripcion.setText("Agroturismo es un concepto que se forma a partir de dos términos: agro y turismo. En el primer caso, se trata de un elemento compositivo que alude al campo (un terreno no urbanizado donde se pueden realizar cultivos y criar animales). Turismo, por su parte, vinculado a los viajes que se llevan a cabo por ocio.");
+
+            }
+        });
+
+        botn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast7 = Toast.makeText(getContext(), "Restaurant", Toast.LENGTH_SHORT);
+                toast7.show();
+                Titulo.setText("Restaurant");
+                Descripcion.setText("Un restaurante es un establecimiento comercial, aceso público, donde se paga por la comida y bebida para ser consumidas en el mismo local. Hoy en día existe una gran variedad de modalidades de servicio y tipos de cocina.");
+
+            }
+        });
+
+        botn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast8 = Toast.makeText(getContext(), "Volcán", Toast.LENGTH_SHORT);
+                toast8.show();
+                Titulo.setText("Volcán");
+                Descripcion.setText("La palabra volcán proviene de Vulcano. Se trata de un conducto que establece comunicación directa entre la superficie terrestre y los niveles profundos de la corteza terrestre. Los volcanes son aberturas que se encuentran en montañas o en la tierra; cada un cierto periodo de tiempo, expulsan lava, gases, cenizas y humo.");
+            }
+        });
+
+        botn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast9 = Toast.makeText(getContext(), "Colinas- Nevados", Toast.LENGTH_SHORT);
+                toast9.show();
+                Titulo.setText("Colinas- Nevados");
+                Descripcion.setText("Un cerro o colina es una eminencia del terreno que, en general, no supera los 100 metros desde la base hasta la cima. Sin embargo, en algunos países de Sudamérica y Centroamérica se nombran como cerros algunos picos que incluso superan los 3.000 m de altitud.");
+            }
+        });
+        botn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast10 = Toast.makeText(getContext(), "Aguas Termales", Toast.LENGTH_SHORT);
+                toast10.show();
+                Titulo.setText("Aguas termales");
+                Descripcion.setText("Estas aguas proceden de capas subterráneas de la Tierra que se encuentran a mayor temperatura, las cuales son ricas en diferentes componentes minerales y permiten su utilización en la terapéutica como baños, inhalaciones, irrigaciones, y calefacción. (ver Hidroterapia).");
+            }
+        });
+        botn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast11 = Toast.makeText(getContext(), "Área Protegida", Toast.LENGTH_SHORT);
+                toast11.show();
+                Titulo.setText("Áreas protegidas");
+                Descripcion.setText("Las áreas protegidas son espacios creados por la sociedad en su conjunto, articulando esfuerzos que garanticen la vida animal y vegetal en condiciones de bienestar, es decir, la conservación de la biodiversidad, así como el mantenimiento de los procesos ecológicos necesarios para su preservación y el desarrollo del ser humano.");
+            }
+        });
+        botn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast12 = Toast.makeText(getContext(), "Cascada", Toast.LENGTH_SHORT);
+                toast12.show();
+                Titulo.setText("Cascada");
+                Descripcion.setText("Se llama cascada, caída, catarata, salto de agua o caída de agua gigante al tramo de un curso fluvial donde, por causa de un fuerte desnivel del lecho o cauce, el agua cae verticalmente por efecto de la gravedad. Las caídas de agua se consideran uno de los fenómenos más bellos de la naturaleza.");
+
+            }
+        });
+
+        botn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast13 = Toast.makeText(getContext(), "Gruta", Toast.LENGTH_SHORT);
+                toast13.show();
+                Titulo.setText("Gruta");
+                Descripcion.setText("Es una cavidad de buen tamaño que se forma bajo la tierra, cuando el agua de la lluvia se filtra entre las rocas calcáreas. En su origen, el agua se introduce en las pequeñas fisuras de las rocas que al agrandarse poco a poco. Son acumulaciones de sales minerales que suelen hallarse en el interior de la gruta.");
+
+            }
+        });
+        botn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast14 = Toast.makeText(getContext(), "Lago", Toast.LENGTH_SHORT);
+                toast14.show();
+                Titulo.setText("Lago");
+                Descripcion.setText("Un lago (del latín: lacus) es un cuerpo de agua, generalmente dulce, de una extensión considerable, que se encuentra separado del mar. El aporte de agua a todos los lagos viene de los ríos, de aguas freáticas y precipitación sobre el espejo del agua.");
+
+            }
+        });
+        botn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast15 = Toast.makeText(getContext(), "Mirador", Toast.LENGTH_SHORT);
+                toast15.show();
+                Titulo.setText("Mirador");
+                Descripcion.setText("Desde los miradores (naturales o artificiales) pueden admirarse diferentes paisajes como entornos urbanos, industriales, rurales, paisajes naturales o geográficos, etcétera, y también para la observación de aves.");
+            }
+        });
+        botn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast16 = Toast.makeText(getContext(), "Hacienda Colonial", Toast.LENGTH_SHORT);
+                toast16.show();
+                Titulo.setText("Hacienda Colonial");
+                Descripcion.setText("Es una forma de organización económica típica del sistema colonial español, que se mantuvo en Iberoamérica hasta las reformas agrarias de la segunda mitad del siglo XX. El término se utiliza para describir la producción mixta agrícola-ganadera. Como modelo de organización agropecuaria y social.");
+            }
+        });
+        botn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast16 = Toast.makeText(getContext(), "Centro Histórico", Toast.LENGTH_SHORT);
+                toast16.show();
+                Titulo.setText("Centro Histórico");
+                Descripcion.setText("Se denomina centro histórico al núcleo urbano original de planeamiento y construcción de un área urbana, generalmente el de mayor atracción social, económica, política y cultural, que se caracteriza por contener los bienes vinculados con la historia de una determinada ciudad, a partir de la cultura que le dio origen.");
+            }
+        });
+        botn18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast17 = Toast.makeText(getContext(), "Artesanía de los Andes", Toast.LENGTH_SHORT);
+                toast17.show();
+                Titulo.setText("Artesanía De Los Andes");
+                Descripcion.setText("Observados desde la altura, los Andes ecuatorianos despliegan un collage de colores, como si la naturaleza hubiese tejido sobre ellos su propio tapiz. Nos revela que este sorprendente panorama no es sólo una expresión de la naturaleza, sino también resultado del trabajo del hombre.");
+            }
+        });
+        botn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast18 = Toast.makeText(getContext(), "Iglesia", Toast.LENGTH_SHORT);
+                toast18.show();
+                Titulo.setText("Iglesia");
+                Descripcion.setText("La iglesion cuyo origen se remonta a un vocablo griego que significa “asamblea”, permite nombrar al templo cristiano. Se trata de servicios religiosos públicos y se presentan imágenes que son adoradas por los fieles. Por ejemplo: “Todos los domingos por la mañana voy a la iglesia a pedir por la salud de mi madre”");
+            }
+        });
+        botn20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast19 = Toast.makeText(getContext(), "Museo", Toast.LENGTH_SHORT);
+                toast19.show();
+                Titulo.setText("Museo");
+                Descripcion.setText("Del latín musēum, un museo es un lugar donde se guardan y exhiben colecciones de objetos de interés artístico, cultural, científico, histórico, etc. Son gestionados por instituciones sin ánimo de lucro que intentan difundir los conocimientos humanos.");
+            }
+        });
+        botn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast20 = Toast.makeText(getContext(), "Zona Arqueológica Andes", Toast.LENGTH_SHORT);
+                toast20.show();
+                Titulo.setText("Zona Arqueológica Andes");
+                Descripcion.setText("En la sierra ecuatoriana se pueden distinguir siete grandes culturas, estas son: los Caranquis, Yumbos, Kitus, Panzaleos, Puruháes, Cañaris y Paltas.");
+            }
+        });
+        botn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast21 = Toast.makeText(getContext(), "Zona Arqueológica Costa", Toast.LENGTH_SHORT);
+                toast21.show();
+                Titulo.setText("Zona Arqueológica Costa");
+                Descripcion.setText("La creencia popular de los costeños son abiertos, efusivos, excelentes bailarines y alegres, en oposición a los serranos, quienes tienden a ser más reservados y con círculos sociales más íntimos y reducidos. En general, los costeños proyectan un estilo de vida hacia el exterior.");
+            }
+        });
+        botn23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast22 = Toast.makeText(getContext(), "Tola", Toast.LENGTH_SHORT);
+                toast22.show();
+                Titulo.setText("Tola");
+                Descripcion.setText("Fue de particular interés para el investigador colombiano quien llamó a éstos restos “basureros precolombinos” hallar partículas de oro de formas variadas y caprichosas combinadas con fragmentos de hilados para la industria textil, estos labores son realizadas por la gente de ésta cultura.");
+            }
+        });
+
+
+
+
+
+
+        return rootview;
+
+    }
+
+
+
+
+}
+
