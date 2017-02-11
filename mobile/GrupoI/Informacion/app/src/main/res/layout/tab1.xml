@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/inicios"
+    tools:context="com.example.anderson.informacion.Tab1">
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="POBLACION:"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textColorHighlight="@android:color/background_dark"
+                android:fontFamily="sans-serif"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="409,205 habitantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:layout_row="0"
+                android:layout_column="5"
+                android:layout_alignTop="@+id/textView10"
+                android:layout_toEndOf="@+id/textView17" />
+
+            <TextView
+                android:text="EXTENSIÒN TERRITORIAL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:layout_alignBaseline="@+id/textView16"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_alignParentStart="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="6.109 km2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:layout_alignBaseline="@+id/textView16"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:text="RANGO ALTITUDINAL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Varian desde los 90 msnm en la parroquia Moraspungo del Cantón Pangua, asciendo hasta  4.480 msnm en la cordillera  Occidental en el Sector de la Comunidad de Apagua, desciende a los 2.760 ,msnm en la Ciudad de Latacunga."
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="33dp"
+                android:layout_below="@+id/textView16"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="LIMITE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:layout_weight="0.34"
+                android:layout_below="@+id/textView19" />
+
+            <TextView
+                android:text="NORTE:   Provincia de Pichincha y Santodomingo de Isacjilas"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textAlignment="viewStart"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text=" SUR:  Provincia de Tungurahua y Bolivar "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text=" ESTE:  Provincia de Napo."
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="OESTE: Provinvia de Santo Domingo de los Isachilas de los Ríos"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:layout_below="@+id/textView3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
