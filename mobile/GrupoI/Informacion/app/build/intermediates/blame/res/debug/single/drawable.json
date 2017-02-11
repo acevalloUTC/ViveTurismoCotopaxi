@@ -1,0 +1,550 @@
+[
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\franja.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\franja.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bn.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\bn.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_ischigualasto.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_ischigualasto.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanacinco.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanacinco.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguados.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguados.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agua.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\agua.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cotopaxipark.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\cotopaxipark.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_fenomenocuatro.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_fenomenocuatro.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguaunos.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguaunos.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_quebradazonda.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_quebradazonda.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\franja1.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\franja1.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguatres.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguatres.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gadcotopaxi.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\gadcotopaxi.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanauno.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanauno.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuito_verde.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuito_verde.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\red.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_casanatalsarmiento.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_casanatalsarmiento.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_lagunacinco.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_lagunacinco.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rios.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rios.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_parque.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_parque.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguad.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguad.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\verb.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\verb.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_celdahistoriasanmartin.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_celdahistoriasanmartin.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_pismanta.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_pismanta.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelrio_obsevatorio.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelrio_obsevatorio.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btaz.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\btaz.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titulo.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\titulo.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguacuatro.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguacuatro.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_cuestadelviento.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_cuestadelviento.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuito_delrio.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuito_delrio.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\viveturismo.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\viveturismo.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_auditorio.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_auditorio.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lagunasub.gif",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\lagunasub.gif"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanasiete.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanasiete.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_huaco.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_huaco.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\turismo.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\turismo.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanacuatro.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanacuatro.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_jachal.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_jachal.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ruta_delvino.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\ruta_delvino.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_plaza.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_plaza.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cotopaxi.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\cotopaxi.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_caucete.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_caucete.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_rodeo.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_rodeo.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\espeleologicos.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\espeleologicos.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\areas.gif",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\areas.gif"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_lasmarianasbodegafamliar.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_lasmarianasbodegafamliar.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bv.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\bv.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelrio_calingasta.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelrio_calingasta.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_jardindelospoetas.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_jardindelospoetas.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_fenomenouno.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_fenomenouno.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\snaturales.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\snaturales.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanaseis.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanaseis.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\agua_cuatro11_dd.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\agua_cuatro11_dd.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguauu.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguauu.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\montanas.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\montanas.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelrio_pampa.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelrio_pampa.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_diquedeullum.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_diquedeullum.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\latacunga.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\latacunga.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pie.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\pie.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ll2.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\ll2.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_lagunauno.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_lagunauno.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_champaneramiguelmas.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_champaneramiguelmas.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuito_delsol.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuito_delsol.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_cavasdezonda.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_cavasdezonda.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguas.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguas.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_museograffigna.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_museograffigna.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_fenomenotres.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_fenomenotres.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondouno.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\fondouno.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_lagunatres.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_lagunatres.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_lagunacuatro.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_lagunacuatro.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_lagunados.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_lagunados.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelrio_barreal.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelrio_barreal.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\br.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\br.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cafb.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\cafb.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_vinassegisa.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_vinassegisa.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_iglesiacatedral.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_iglesiacatedral.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanados.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanados.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cabecera.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\cabecera.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_iglesia.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_iglesia.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo1.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\fondo1.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_bodegaslaguarda.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_bodegaslaguarda.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_autodromodezonda.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_autodromodezonda.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_vallefertil.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_vallefertil.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mbot.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\mbot.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_difunta.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_difunta.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\read_more.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\read_more.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yambo.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\yambo.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitolunar_fenomenodos.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitolunar_fenomenodos.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitodelsol_parquefaunistico.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitodelsol_parquefaunistico.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aguauno.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\aguauno.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_montanatres.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_montanatres.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitoverde_tudcum.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitoverde_tudcum.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bienvenido.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\bienvenido.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rutadelvino_bodegasyvinedosfabril.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\rutadelvino_bodegasyvinedosfabril.jpg"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\fondo.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circuitochico_cienciasnaturales.jpg",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\drawable\\circuitochico_cienciasnaturales.jpg"
+    }
+]

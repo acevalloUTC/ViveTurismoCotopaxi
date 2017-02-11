@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anderson.informacion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.anderson.informacion.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.anderson.informacion.InformacionGeneral"
+            android:label="@string/title_activity_informacion_general"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.anderson.informacion.Informacion"
+            android:label="@string/title_activity_informacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.anderson.informacion.Tab1" />
+        <activity android:name="com.example.anderson.informacion.Tab2" />
+        <activity android:name="com.example.anderson.informacion.Tab3" />
+        <activity android:name="com.example.anderson.informacion.Tab4" />
+        <activity android:name="com.example.anderson.informacion.Tab5" />
+        <activity android:name="com.example.anderson.informacion.Tab6" />
+        <activity android:name="com.example.anderson.informacion.Latacun" />
+        <activity android:name="com.example.anderson.informacion.Pujili" />
+        <activity android:name="com.example.anderson.informacion.Sigchos" />
+        <activity android:name="com.example.anderson.informacion.Saquisili" />
+        <activity android:name="com.example.anderson.informacion.Salcedo" />
+        <activity android:name="com.example.anderson.informacion.Pangua" />
+        <activity android:name="com.example.anderson.informacion.Mana" />
+    </application>
+
+</manifest>

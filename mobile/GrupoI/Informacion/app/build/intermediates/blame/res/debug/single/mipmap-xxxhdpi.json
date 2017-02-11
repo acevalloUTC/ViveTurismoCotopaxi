@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\inicios.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\inicios.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ax.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\ax.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\inib.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\inib.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\an.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\an.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\aa.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\aa.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ar.png",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\mipmap-xxxhdpi\\ar.png"
+    }
+]

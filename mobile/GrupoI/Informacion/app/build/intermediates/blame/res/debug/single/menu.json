@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_aguas.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_aguas.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_informacion.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_informacion.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_lugares_turisticos_d.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_lugares_turisticos_d.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_lugares_turisticos.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_lugares_turisticos.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Informacion\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_lugares.xml",
+        "source": "E:\\Androidapp\\Informacion\\app\\src\\main\\res\\menu\\menu_lugares.xml"
+    }
+]
