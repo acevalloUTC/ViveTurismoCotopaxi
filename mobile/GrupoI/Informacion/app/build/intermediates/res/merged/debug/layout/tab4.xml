@@ -1,0 +1,156 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anderson.informacion.Informacion">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="FESTIVIDADES CANTONALES"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:textColor="?android:attr/textColorTertiary"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif"/>
+
+
+                <Button
+                    android:text="LATACUNGA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/butlata"
+                    android:background="#6CC4C9"
+                    android:onClick="latacungas"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/background_light" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:text="SIGCHOS"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#0E3375"
+                        android:id="@+id/butsigch"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/background_light" />
+
+                    <Button
+                        android:text="PUJILI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FACC2E"
+                        android:id="@+id/butpuji"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/background_light" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:text="SAQUISILI"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#A0CB56"
+                                android:id="@+id/butsaquisili"
+                                android:textSize="18sp"
+                                android:textColor="@android:color/background_light" />
+
+                            <Button
+                                android:text="SALCEDO"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#DF7401"
+                                android:id="@+id/butsalcedo"
+                                android:textSize="18sp"
+                                android:textColor="@android:color/background_light" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <Button
+                                        android:text="PANGUA"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#9A2EFE"
+                                        android:id="@+id/butpangua"
+                                        android:textSize="18sp"
+                                        android:textColor="@android:color/background_light" />
+
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <Button
+                                            android:text="LA MANA"
+                                            android:layout_width="match_parent"
+                                            android:background="#FA5858"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/butmana"
+                                            android:textSize="18sp"
+                                            android:textColor="@android:color/background_light" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>
+
+

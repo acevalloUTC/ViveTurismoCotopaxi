@@ -1,0 +1,285 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:clipToPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="526dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp">
+
+                    <TextView
+                        android:text="SIMBOLOGÍA ÁREA DE COTOPAXI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/min"
+                        android:id="@+id/btn1"
+                        android:background="@drawable/mbot"
+                        android:contentDescription=""
+                        tools:ignore="ContentDescription"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/sin"
+                        android:id="@+id/btn2"
+                        android:layout_weight="1"
+                        android:background="@drawable/verb" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/para"
+                        android:id="@+id/btn3"
+                        android:layout_weight="1"
+                        android:background="@drawable/btaz" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/culu"
+                        android:id="@+id/btn4"
+                        android:layout_weight="1"
+                        android:background="@drawable/btaz" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/esca"
+                        android:id="@+id/btn5"
+                        android:layout_weight="1"
+                        android:background="@drawable/btaz" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/trac"
+                            android:id="@+id/btn6"
+                            android:layout_weight="1"
+                            android:background="@drawable/btaz" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/comi"
+                            android:id="@+id/btn7"
+                            android:layout_weight="1"
+                            android:background="@drawable/btaz" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/volcan"
+                            android:id="@+id/btn8"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/mon"
+                            android:id="@+id/btn9"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/termal"
+                            android:id="@+id/btn10"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/pro"
+                            android:id="@+id/btn11"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/cas"
+                            android:id="@+id/btn12"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/no"
+                            android:id="@+id/btn13"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/lago"
+                            android:id="@+id/btn14"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/mir"
+                            android:id="@+id/btn15"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/acie"
+                            android:id="@+id/btn16"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/dia"
+                            android:id="@+id/btn17"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/arte"
+                            android:id="@+id/btn18"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/igl"
+                            android:id="@+id/btn19"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/mus"
+                            android:id="@+id/btn20"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/alg"
+                            android:id="@+id/btn21"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/art"
+                            android:id="@+id/btn22"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@mipmap/tola"
+                            android:id="@+id/btn23"
+                            android:layout_weight="1"
+                            android:background="@drawable/cafb" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
