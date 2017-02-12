@@ -1,0 +1,526 @@
+@(lugar1:List[Lugar], canton1: java.util.List[Canton])
+@main("Calendario") {
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="image/png" href="@routes.Assets.versioned("images/map1.png")">
+
+<!-- VENTANAS EMERGENTES -->
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasigchos.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanalamana.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasaquisili.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanalatacunga.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanapujili.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasalcedo.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/stylelogin.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanapangua.css")" rel="stylesheet">
+	    
+<!-- VENTANAS EMERGENTES TABLA -->
+	    <link href="@routes.Assets.versioned("stylesheets/tablaventana.css")" rel="stylesheet">
+
+<!-- ESTILO DE LAS IMAGENES -->
+	    <link href="@routes.Assets.versioned("stylesheets/Styleimgcantones.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanalatacungaimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanalamanaimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasaquisiliimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasigchosimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanapanguaimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanasalcedoimagen.css")" rel="stylesheet">
+	    <link href="@routes.Assets.versioned("stylesheets/ventanapujiliimagen.css")" rel="stylesheet">
+
+<!-- Javascript para efectos de sonido Entrada-->
+<script>
+var bleep = new Audio();
+bleep.src = "@routes.Assets.versioned("musica/Pop_2-Texavery-8930_hifi.mp3")";
+
+function sonidoEntrada(){
+    bleep.play(); // Play button sound now
+}
+</script> 
+
+
+<!-- Javascript para efectos de sonido Salida-->
+<script>
+var bleep1 = new Audio();
+bleep1.src = "@routes.Assets.versioned("musica/Pop-PhoenixJ-8164_hifi.mp3")";
+
+function sonidoSalida(){
+    bleep1.play(); // Play button sound now
+}
+</script> 
+
+<br>
+
+
+<!-- Javascript para efectos de Scroll de la Tabla -->
+<script type="text/javascript">
+//Change the selector if needed
+var $table = $('table.scroll'),
+    $bodyCells = $table.find('tbody tr:first').children(),
+    colWidth;
+
+// Adjust the width of thead cells when window resizes
+$(window).resize(function() {
+    // Get the tbody columns width array
+    colWidth = $bodyCells.map(function() {
+        return $(this).width();
+    }).get();
+    
+    // Set the width of thead columns
+    $table.find('thead tr').children().each(function(i, v) {
+        $(v).width(colWidth[i]);
+    });    
+}).resize(); // Trigger resize handler
+</script>
+
+
+<!-- Estilo de movimiento para la tabla -->
+<style>
+table.scroll {
+    width: 100%; /* Optional */
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+}
+
+table.scroll tbody,
+table.scroll thead { display: block; }
+
+table.scroll tbody {
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+tbody td, thead th {
+    width: 20%; /* Optional */
+}
+</style>
+
+
+<!-- Codificacion para visualizar los datos de la base de datos -->
+
+<div align="center" style="position: static;" >
+	<img src="@routes.Assets.versioned("images/mapa.png")" width="40%" height="70%" alt="Turismo" usemap="#mapa">
+	<map name="mapa">
+		<!-- CANTON DE SIGCHOS -->
+		
+		<area shape="rect" coords="225,125,280,135" alt="Sigchos" href="#popupsigchos" class="popupsigchos-link" onclick="sonidoEntrada()" onchange="cargarLugar(this)" value="1">
+			<div class="modal-wrapper" id="popupsigchos">
+ 				<div class="popupsigchos-contenedor">
+ 					<strong><font face="small fonts" size="5" color="#151515">CANTÓN SIGCHOS</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popupsigchos-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+			 
+		<!-- CANTON LA MANÁ -->
+		<area shape="rect" coords="35,295,87,305" alt="La Maná" href="#popuplamana" class="popuplamana-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popuplamana">
+ 				<div class="popuplamana-contenedor">
+ 					<strong><font face="small fonts" size="5" color="#151515">CANTÓN LA MANÁ</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+  					<a class="popuplamana-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+		
+		<!-- CANTON SAQUISILÍ -->
+		<area shape="rect" coords="275,225,330,238" alt="Saquisili" href="#popupsaquisili" class="popupsaquisili-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popupsaquisili">
+ 				<div class="popupsaquisili-contenedor">
+		 			<strong><font face="small fonts" size="5" color="#151515">CANTÓN SAQUISILÍ</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popupsaquisili-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+		
+		<!-- CANTON LATACUNGA -->
+		<area shape="rect" coords="360,250,445,265" alt="Latacunga" href="#popuplatacunga" class="popuplatacunga-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popuplatacunga">
+ 				<div class="popuplatacunga-contenedor">
+		 			<strong><font face="small fonts" size="5" color="#151515">CANTÓN LATACUNGA</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popuplatacunga-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+				
+		<!-- CANTON PUJILÍ -->
+		<area shape="rect" coords="310,316,340,305" alt="Pujili" href="#popuppujili" class="popuppujili-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popuppujili">
+ 				<div class="popuppujili-contenedor">
+		 			<strong><font face="small fonts" size="5" color="#151515">CANTÓN PUJILÍ</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popuppujili-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+				
+		<!-- CANTON SALCEDO --> 
+		<area shape="rect" coords="390,316,480,345" alt="Salcedo" href="#popupsalcedo" class="popupsalcedo-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popupsalcedo">
+ 				<div class="popupsalcedo-contenedor">
+		 			<strong><font face="small fonts" size="5" color="#151515">CANTÓN SALCEDO</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popupsalcedo-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+		 		
+		<!-- CANTON PANGUA --> 
+		<area shape="rect" coords="105,365,175,375" alt="Pangua" href="#popuppangua" class="popuppangua-link" onclick="sonidoEntrada()">
+			<div class="modal-wrapper" id="popuppangua">
+ 				<div class="popuppangua-contenedor">
+		 			<strong><font face="small fonts" size="5" color="#151515">CANTÓN PANGUA</font></strong>
+		 			<table class="scroll">
+		 			<thead>
+						  <tr>
+						    <th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    				<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    				<th scope="col" bgcolor="#088A08">MES</th>
+						  </tr>
+					</thead>
+					<tbody>
+						@for(lugar <- lugar1) {		
+                			<tr>
+                    			<td>@lugar.acontecimiento</td>
+                    			<td>@lugar.nomlugar</td>
+                    			<td>@lugar.mes</td>
+			                </tr>
+            		    }					
+            		</tbody>
+					</table>
+		 			<a class="popuppangua-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  				</div>
+			</div>
+	</map>
+</div>
+
+<!-- Galeria de imagenes visualizando informacion de cada canton de la provincia de cotopaxi --> 
+<div align="center">
+	<div style="position: relative; background-color: #D8D8D8; padding: 20px; border: 0px solid #000000; border-radius: 10px 10px 10px 10px; width:1000px; height:120xp;" >
+ 		<div id="containercantones" style="height: 1000px;">
+	 		<table >
+	 			<tr>
+			    	<th colspan="3" scope="col" bgcolor="#088A08">
+			    		<h2 align="center">LA PROVINCIA DE COTOPAXI</h1>
+			    	</th>
+				</tr>
+				<!-- Imagen Latacunga --> 
+				<tr>
+			    	<td colspan="3">
+						<div id="containerlatacunga" align="center">			    	
+			    			<div class="ex2latacunga">
+			    				<a href="#popuplatacungaimagen" class="popuplatacungaimagen-link" onclick="sonidoEntrada()">
+			    				<img src="@routes.Assets.versioned("images/latacungaparque.jpg")" alt="Latacunga" />
+			    					<div class="modal-wrapper" id="popuplatacungaimagen">
+ 										<div class="popuplatacungaimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">LATACUNGA</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	Conocida como: "Latacunga, Pensil de los Andes", "Latacunga Romántica", "Ciudad de León", "la ciudad de los mashcas". 
+																	Es una ciudad que en el siglo XXI demostrò un desarrollo sostenido que la colocó entre las ciudades más importantes de la sierra ecuatoriana. 
+																	Todos los atributos históricos, arquitectónicos y culturales que posee Latacunga le han permitido ser considerada como Ciudad Patrimonial de la Nación.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popuplatacungaimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    	</td>
+				</tr>
+				<!-- Imagenen -> La Mana - Saquisil - Sigchos -->
+			    <tr>
+					<td>
+						<div id="containerlamana" align="center">
+							<div class="ex2lamana">
+			    				<a href="#popuplamanaimagen" class="popuplamanaimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/lamana.gif")" alt="La Mana" />
+			    					<div class="modal-wrapper" id="popuplamanaimagen">
+ 										<div class="popuplamanaimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">LA MANÁ</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	La Maná era un recinto que perteneció a la parroquia El Tingo del cantón Pujilí por varios 
+																	años pero debido a su crecimiento y desarrollo sus habitantes organizaron un comité pro-parroquialización 
+																	buscando un mejor porvenir para su pueblo hasta que, finalmente lograron la cantonización de La Maná, 
+																	gracias a la tenaz gestión de hombres patriotas y decididos.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popuplamanaimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    					</a>
+			    			</div>
+			    		</div>
+			    	</td>
+			    	<td>
+			    		<div id="containersaquisili" align="center">
+			    			<div class="ex2saquisili">
+			    				<a href="#popupsaquisiliimagen" class="popupsaquisiliimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/saquisili.jpg")" alt="Saquisili" />
+			    					<div class="modal-wrapper" id="popupsaquisiliimagen">
+ 										<div class="popupsaquisiliimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">SAQUISILI</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	Los saquisilenses son gentes de trabajo y comercio, basta visitar la feria en mención de los jueves donde se pueden apreciar productos como: 
+																	ganado, aves, cereales, telares, tejidos, gastronomía, artesanía, ganado vacuno, etc. 
+																	todo en un espacio ubicado en el centro del cantón.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popupsaquisiliimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    		
+			    	</td>
+			    	<td>
+			    		<div id="containersigchos" align="center">
+			    			<div class="ex2sigchos">
+			    				<a href="#popupsigchosimagen" class="popupsigchosimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/sigchos.jpg")" alt="Sigchos" />
+			    					<div class="modal-wrapper" id="popupsigchosimagen">
+ 										<div class="popupsigchosimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">SIGCHOS</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	Las alturas de la Cordillera Andina son un sitio propicio para la vida cotidiana de las poblaciones campesinas. 
+																	Pero la cordillera encierra regiones con un clima benigno que ha hecho posible no solo la existencia diaria, 
+																	sino la producción agrícola y consecuentemente el comercio.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popupsigchosimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    	</td>
+				</tr>
+				<!-- Imagenen -> Pangua - Pujili - Salcedo -->
+				<tr>
+					<td>
+						<div id="containerpangua" align="center">
+			    			<div class="ex2pangua">
+			    				<a href="#popuppnguaimagen" class="popuppnguaimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/pangu.png")" alt="Pangua" />
+			    					<div class="modal-wrapper" id="popuppnguaimagen">
+ 										<div class="popuppnguaimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">PANGUA</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	Pangua conocida como el "Paraíso Escondido de Cotopaxi". Se encuentra ubicada al Sur Occidente de la provincia, 
+																	en las estribaciones Occidentales de la Cordillera Andina, a una altitud que va desde los 100 a 3.600 m.s.n.m por sus 8 pisos altitudinales, 
+																	con una temperatura que va desde los 10°C en su zona alta y de 20 a 25° C en su zona baja. 
+																	Su nombre viene de la cultura Cayapa es por eso Pangua=Panguapi que significa "AGUA NUEVA", 
+																	los pánguenses han construido su identidad y reconocimiento de ser un pueblo noble y valiente, 
+																	hospitalario y trabajador, creando lazos de hermandad entre los demás cantones de la Provincia.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popuppnguaimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    		
+			    	</td>
+			    	<td>
+			    		<div id="containersalcedo" align="center">
+			    			<div class="ex2salcedo">
+			    				<a href="#popupsalcedoimagen" class="popupsalcedoimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/salcedo.jpg")" alt="Salcedo" />
+			    					<div class="modal-wrapper" id="popupsalcedoimagen">
+ 										<div class="popupsalcedoimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">SALCEDO</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	El cantón Salcedo es una entidad territorial subnacional ecuatoriana, de la Provincia de Cotopaxi. 
+																	Su cabecera cantonal es la ciudad de Salcedo, lugar donde se agrupa gran parte de su población total. 
+																	Se cantonizó el 19 de septiembre de 1919. 
+																	Su nombre es en honor al orador Manuel Antonio Salcedo y Legorburú, sacerdote.</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popupsalcedoimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    	</td>
+			    	<td>
+			    		<div id="containerpujili" align="center">
+			    			<div class="ex2pujili">
+			    				<a href="#popuppujiliimagen" class="popuppujiliimagen-link" onclick="sonidoEntrada()">
+			    					<img src="@routes.Assets.versioned("images/pujili.jpg")" alt="Pujili" />
+			    					<div class="modal-wrapper" id="popuppujiliimagen">
+ 										<div class="popuppujiliimagen-contenedor">
+			    								<strong><font face="small fonts" size="5" color="#151515">PUJILÍ</font></strong>
+			    									<HR style="background-color: green; height: 1px;" width="70%" align="center">
+			    									<div>
+	    												<blockquote>
+ 															<p align="justify" >
+																<em>
+																	<font size=2>
+																	Pujilí al igual que el resto de pueblos situados en los páramos del occidente de la Cordillera de los Andes estuvo habitada por “Aborígenes Panzaleos”, a quienes se los
+																	describe como personas dedicadas a las labores agrícolas, a la alfarería y al pastoreo del
+																	ganado. Cosechaban cereales y frutos, debido a que estas tierras eran un bosque de
+																	clima templado.
+																	</font>
+																</em>
+															</p>
+														</blockquote>
+													</div>
+			    							<a class="popuppujiliimagen-cerrar" onclick="sonidoSalida()" href="#">X</a>
+  										</div>
+									</div>
+			    				</a>
+			    			</div>
+			    		</div>
+			    	</td>
+				</tr>
+			</table>
+ 		</div>
+	</div>
+</div>
+<br>
+<div align="center" style="position: none;">
+            <a href="@routes.HomeController.logincalendario()">NUEVO REGISTRO</a>
+</div>
+	}

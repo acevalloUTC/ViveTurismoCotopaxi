@@ -1,0 +1,193 @@
+@(tur:Turismo,categ: List[Canton],sub: List[Parroquia],categ1: List[Categoria],sub1: List[Subcategoria])
+@main("Atractivos") {
+
+@if(flash.containsKey("ok")) {
+  <h1>@flash.get("ok")</h1>
+}
+
+ <center>
+  <h4><strong> <i class="fa fa-home"> </i> Atractivos Turisticos</strong> 
+   </h4>
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fa fa-plus-circle"> </i> Registrar Nuevo</button>
+  </center>
+  <br>
+
+<div class="container">
+	<form class="form-horizontal" action="/update" method="POST">
+     <fieldset>
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Categoria:</label>  
+			  <div class="col-md-6">
+			 <select name="cat1" required="required" id="cargarsub1">
+			 	<option value="">--SELECCIONE--</option>
+			 	@for(c <- categ1) {
+			 	<option value="@c.getId()">@c.getName()</option>
+			 	}
+			 </select>
+			  <span class="help-block">Ej. Naturales</span>  
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Sub categoria:</label>  
+			  <div class="col-md-6">
+			 <select name="sub1" required="required" id="subcategoria11">
+			 	<option>--SELECCIONE--</option>
+			 
+			 </select>
+			  <span class="help-block">Ej. Rios</span>  
+			  </div>
+			</div>
+			
+			<fieldset>
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Canton:</label>  
+			  <div class="col-md-6">
+			 <select name="cat" required="required" id="cargarsub">
+			 	<option value="">--SEELECIONE--</option>
+			 	@for(c <- categ) {
+			 	<option value="@c.getId()">@c.getNomcanton()</option>
+			 	}
+			 </select>
+			  <span class="help-block">Ej. Latacunga</span>  
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Parroquia:</label>  
+			  <div class="col-md-6">
+			 <select name="sub" required="required" id="subcategoria1">
+			 	<option>--SELECCIONE--</option>
+			 
+			 </select>
+			  <span class="help-block">Ej. La Matriz</span>  
+			  </div>
+			</div>
+			
+			
+			<input id="textinput" name="idt" type="hidden" placeholder="Ingrese el nombre" class="form-control input-md" required="required" value="@tur.getId()">
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Nombre:</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="name" type="text" placeholder="Ingrese el nombre" class="form-control input-md" required="required" value="@tur.getName()">
+			  <span class="help-block">Ej. Parque Nacional Cotopaxi</span>  
+			  </div>
+			</div>
+			
+			<!-- Textarea -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textarea">Descripcion:</label>
+			  <div class="col-md-6">                     
+			    <textarea class="form-control" id="textarea" name="description" required="required">@tur.getDescription()</textarea>
+			  </div>
+			</div>
+			
+			<!-- File Button --> 
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="filebutton">Imagen:</label>
+			 
+			 	<img src="@routes.Assets.versioned("images/atractivos/")@tur.getFoto()" height="90px;" width="90px;">
+			  <div class="col-md-4">
+			    <input id="filebutton" name="foto" class="input-file" type="text" value="@tur.getFoto()">
+			  </div>
+			</div>
+			
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Direccion:</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="direccion" type="text" placeholder="Ingrese la direccion" class="form-control input-md" required="required" value="@tur.getDireccion()">
+			  <span class="help-block">Ej. Av. SImon Rodiguez. Barrio El Ejido</span>  
+			  </div>
+			</div> <center>
+			<button type="submit" class="btn btn-success"> <i class="fa fa-save"> </i> Guardar</button>
+			<a href="" class="btn btn-default"><i class="fa fa-times"> </i> Cancelar</a>
+			</center>
+			</fieldset>
+     
+      	
+      
+      </form>
+</div>
+
+<br>
+
+
+ <div class="thumbnail">			 	
+ 	<img src="@routes.Assets.versioned("images/barras.png")" >			 	
+</div> 		
+
+<br>
+<script>
+$('#cargarsub').on('change', function() {
+	$('#subcategoria1').html("");
+	var va=this.value;  
+	$('#subcategoria1').append("<option>--Seleccione--</option>");
+	@for(s <- sub) {
+		var idAuxCategoria=@s.getCanton.getId();
+			
+		if(idAuxCategoria==va){
+			//alert("ok @s.getName()");
+			$('#subcategoria1').append("<option value='@s.getId()'>@s.getName()</option>");
+		}
+			
+	}
+		
+	
+});
+	
+
+$("#cargarsub").val(@tur.getCanton().getId);
+
+var va=@tur.getCanton().getId;
+@for(s <- sub) {
+	var idAuxCategoria=@s.getCanton.getId();
+		
+	if(idAuxCategoria==va){
+		//alert("ok @s.getName()");
+		$('#subcategoria1').append("<option value='@s.getId()'>@s.getName()</option>");
+	}
+		
+}
+
+$("#subcategoria1").val(@tur.getParroquia().getId);
+
+	
+</script>
+<script>
+$('#cargarsub1').on('change', function() {
+	$('#subcategoria11').html("");
+	var va=this.value;  
+	$('#subcategoria11').append("<option>--Seleccione--</option>");
+	@for(s <- sub1) {
+		var idAuxCategoria=@s.getCategoria.getId();
+			
+		if(idAuxCategoria==va){
+			//alert("ok @s.getName()");
+			$('#subcategoria11').append("<option value='@s.getId()'>@s.getName()</option>");
+		}
+			
+	}
+		
+	
+});
+	
+
+$("#cargarsub1").val(@tur.getCategoria().getId);
+
+var va=@tur.getCategoria().getId;
+@for(s <- sub1) {
+	var idAuxCategoria=@s.getCategoria.getId();
+		
+	if(idAuxCategoria==va){
+		//alert("ok @s.getName()");
+		$('#subcategoria11').append("<option value='@s.getId()'>@s.getName()</option>");
+	}
+		
+}
+
+$("#subcategoria11").val(@tur.getSubcategoria().getId);
+
+	
+</script>
+
+}
