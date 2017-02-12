@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tituloCotopaxi">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="tituloDatos">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="textoInfo">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="fondo">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="texto">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imagen">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="listasP">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">30dp</item>
+    </style>
+
+    <style name="layoutSimbolos">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingBottom">20dp</item>
+
+    </style>
+
+    <style name="imagenesSlider">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="franjaBaja">
+        <item name="android:layout_marginTop">60dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

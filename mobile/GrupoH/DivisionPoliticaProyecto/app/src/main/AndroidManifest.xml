@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.divisionpoliticaproyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CotopaxiDP"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".LatacungaMenu"
+            android:label="@string/title_activity_latacunga_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LaManaMenu"
+            android:label="@string/title_activity_la_mana_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SalcedoMenu"
+            android:label="@string/title_activity_salcedo_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PujiliMenu"
+            android:label="@string/title_activity_pujili_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaquisiliMenu"
+            android:label="@string/title_activity_saquisili_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PanguaMenu"
+            android:label="@string/title_activity_pangua_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SigchosMenu"
+            android:label="@string/title_activity_sigchos_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

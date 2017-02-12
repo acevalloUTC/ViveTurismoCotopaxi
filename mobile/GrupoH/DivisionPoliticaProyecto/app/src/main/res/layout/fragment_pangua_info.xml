@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.PanguaInfo"
+    android:background="@drawable/fondo1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/franja1" />
+
+    <ScrollView
+        style="@style/layoutSimbolos"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/flecha" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deslice para ver más imágenes."
+                    android:id="@+id/textView7" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:background="@drawable/borde_imagenes"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:id="@+id/horizontalScrollView"
+                android:layout_gravity="center_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua1"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua1"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua2"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua3"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua3"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua4"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua4"
+                        />
+                    <ImageView
+                        style="@style/imagenesSlider"
+                        android:layout_width="250dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pangua5"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pangua5"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                style="@style/tituloDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales"
+                android:id="@+id/textView3" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El nombre Pangua, proviene de un vocablo de cultura Cayapa, por lo cual Pangua es igual a Panguapi que significa 'AGUA NUEVA'."
+                android:id="@+id/textView4" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los panguenses han construido su identidad y reconocimiento de ser un pueblo nobre y valiente en base a su nombre. En 1889 los pobladores del recinto Pangua, solicitan ser reconocidos como Parroquia Eclesiástica."
+                android:id="@+id/textView5" />
+
+            <TextView
+                style="@style/textoInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El cantón Pangua se encuentra a una altutud que oscila entre 100 y 3600 m.s.n.m., cuenta con una temperatura de 15 a 20°C. Su extensión de 719,2km2; se encuentra a 127 km desde Latacunga por la vía Pujilí - Angamarca - El Corazón."
+                android:id="@+id/textView6" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        <ImageView
+            style="@style/franjaBaja"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/franja2"
+            android:src="@drawable/franja1" />
+    </LinearLayout>
+
+</RelativeLayout>

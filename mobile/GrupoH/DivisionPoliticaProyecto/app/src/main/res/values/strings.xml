@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">DivisionPolitica</string>
+    <string name="title_activity_canton_salcedo">Salcedo</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_canton_latacunga">Latacunga</string>
+    <string name="title_activity_canton_latacunga_menu">Latacunga</string>
+    <string name="title_activity_latacunga_menu">Latacunga</string>
+
+
+    <!--copiado de proyecto viveTurismoGrupoB-->
+    <string name="drawer_open">Menú abierto</string>
+    <string name="not_available_text">N/A</string>
+    <string name="drawer_close">Menú cerrado</string>
+    <string name="title_activity_mapas">Mapas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_la_mana_menu">La Mana</string>
+    <string name="title_activity_salcedo_menu">Salcedo</string>
+    <string name="title_activity_pujili_menu">Pujili</string>
+    <string name="title_activity_saquisili_menu">Saquisili</string>
+    <string name="title_activity_pangua_menu">Pangua</string>
+    <string name="title_activity_sigchos_menu">Sigchos</string>
+
+    <string-array name="UrbanoLatacunga">
+        <item>Latacunga</item>
+        <item>Eloy Alfaro</item>
+        <item>Ignacio Flores</item>
+        <item>Juan Moltavo</item>
+        <item>La Matriz</item>
+        <item>San Buenaventura</item>
+    </string-array>
+
+    <string-array name="RuralLatacunga">
+        <item>Aláquez</item>
+        <item>Belisario Quevedo</item>
+        <item>Guaytacama</item>
+        <item>Joséguango Bajo</item>
+        <item>Mulaló</item>
+        <item>11 de Noviembre</item>
+        <item>Poaló</item>
+        <item>San Juan de Pastocalle</item>
+        <item>Tanicuchí</item>
+        <item>Toacaso</item>
+    </string-array>
+
+    <string-array name="UrbanoLaMana">
+        <item>La Maná</item>
+        <item>El Carmen</item>
+        <item>El Triunfo</item>
+    </string-array>
+
+    <string-array name="RuralLaMana">
+        <item>Guasaganda</item>
+        <item>Pucayacu</item>
+    </string-array>
+
+    <string-array name="UrbanoPangua">
+        <item>El Corazon</item>
+    </string-array>
+
+    <string-array name="RuralPangua">
+        <item>Moraspungo</item>
+        <item>Pinllopata</item>
+        <item>Ramón Campaña</item>
+    </string-array>
+
+    <string-array name="UrbanoPujili">
+        <item>Pujilí</item>
+    </string-array>
+
+    <string-array name="RuralPujili">
+        <item>Angamarca</item>
+        <item>Guangaje</item>
+        <item>La Victoria</item>
+        <item>Pilaló</item>
+        <item>El Tingo</item>
+        <item>Zumbahua</item>
+    </string-array>
+
+    <string-array name="UrbanoSalcedo">
+        <item>San Miguel de Salcedo</item>
+    </string-array>
+
+    <string-array name="RuralSalcedo">
+        <item>Cusubamba</item>
+        <item>Mulalillo</item>
+        <item>Panzaleo</item>
+        <item>Mulliquindil</item>
+        <item>Antonio Iosé Holguín</item>
+    </string-array>
+
+    <string-array name="UrbanoSaquisili">
+        <item>Saquisilí</item>
+    </string-array>
+
+    <string-array name="RuralSaquisili">
+        <item>Canchagua</item>
+        <item>Chantilín</item>
+        <item>Cochapamba</item>
+    </string-array>
+
+    <string-array name="UrbanoSigchos">
+        <item>Sigchos</item>
+    </string-array>
+
+    <string-array name="RuralSigchos">
+        <item>Chugchilán</item>
+        <item>Isinliví</item>
+        <item>Las Pampas</item>
+        <item>Palo Quemado</item>
+    </string-array>
+
+
+
+</resources>
