@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anderson.turismo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sitios_Naturales"
+            android:label="@string/title_activity_sitios__naturales"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aguas"
+            android:parentActivityName=".Aguas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Aguas" />
+        </activity>
+        <activity
+            android:name=".ListarUnCircuito"
+            android:parentActivityName=".Aguas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Aguas" />
+        </activity>
+        <activity
+            android:name=".Fenomenos"
+            android:label="@string/title_activity_fenomenos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListarUnFenomeno"
+            android:parentActivityName=".Fenomenos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Fenomenos" />
+        </activity>
+        <activity
+            android:name=".Montanas"
+            android:label="@string/title_activity_montanas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListarUnMontana"
+            android:parentActivityName=".Montanas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Montanas" />
+        </activity>
+        <activity
+            android:name=".Rios"
+            android:label="@string/title_activity_rios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListarUnRio"
+            android:parentActivityName=".Rios">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Rios" />
+        </activity>
+        <activity
+            android:name=".Areas"
+            android:label="@string/title_activity_areas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListarUnAreas"
+            android:parentActivityName=".Areas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Areas" />
+        </activity>
+        <activity
+            android:name=".Manifestaciones_Culturales"
+            android:label="Manifestaciones culturales"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdaptadorAcontecimientos"
+            android:label="Acontecimientos programados"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdaptadorEtnografia"
+            android:label="Etnografícas"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdaptadorHistorica"
+            android:label="Historicas"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdaptadoRealizacion"
+            android:label="Realización Cientificas y Técnicas"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MostrarAcontecimiento"
+            android:label="Acontecimientos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullHeightDialog">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MostrarRealizacion"
+            android:label="Realización cientificas y técnicas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullHeightDialog">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MostrarEtnografia"
+            android:label="Etnográficas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullHeightDialog">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MostrarHistoricas"
+            android:label="Históricas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullHeightDialog">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".ParamoInicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActividadDetalle"
+            android:label="@string/titulo_actividad_detalle"
+            android:parentActivityName=".ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActividadPrincipal" />
+
+
+        </activity>
+        <activity
+            android:name=".GaleriaParamosFi"
+            android:label="@string/title_activity_galeria_paramos_fi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Rutaprincipal"
+            android:label="@string/title_activity_rutaprincipal"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ParqueCoto"
+            android:label="@string/title_activity_parque_coto"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".RutaPutzalahua"></activity>
+        <activity android:name=".RutaQuilotoa" />
+        <activity android:name=".RutaAmarok" />
+
+    </application>
+
+</manifest>
