@@ -1,0 +1,104 @@
+@(lugaredit:Lugar, canton1: List[Canton])
+@main("Vista EdtarLugares"){
+
+<!-- Libreria para las tildes -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Script para pasar datos del combobox a la caja de texto  -->
+<script language="javascript">
+    function funcion(pasarcanton)
+    {
+           document.getElementById('optenercanton').value=pasarcanton;
+    }
+    </script>
+<!-- Estructura inicial -->
+<div>
+  <div class="modal-dialog">
+  	<table align="center" WIDTH=300 HEIGHT=200>
+  	<tr>
+  	<td bgcolor= "#151515" style="font-weight:bold; color:#088A08;" align="center" colspan="2"><FONT SIZE=6>Servidor Web Turismo</font></td>
+	</tr>
+	<tr>
+  	<td style="font-weight:bold; color:#FFFFFF;" align="center" colspan="3"> .  </td>
+	</tr>
+    <td>
+    <!-- Formulario de Editar -->
+    <form class="form-horizontal" action="/updatelugar" method="POST">
+    	<div class="modal-body">
+	    	<fieldset  style="width:600px; background-color:Beige">
+	    	<legend style="font-weight:bold; color:#088A08;"><FONT SIZE=4>Editar Lugar</font></legend>
+	    	
+				<!-- Caja de texto para nombre del lugar-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Id:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="id" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el nombre del lugar" class="form-control input-md" required="required" value="@lugaredit.getId()">
+			  		</div>
+				</div>
+			
+				<!-- Caja de texto para nombre del lugar-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Nombre del lugar:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="nomlugar" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el nombre del lugar" class="form-control input-md" required="required" value="@lugaredit.getNomlugar()">
+			  		</div>
+				</div>
+
+				<!-- Caja de texto para el acontecimiento-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Acontecimiento:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="acontecimiento" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el acontecimiento" class="form-control input-md" required="required" value="@lugaredit.getAcontecimiento()">
+			  		</div>
+				</div>
+
+				<!-- Caja de texto para mes-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Mes del acontecimiento:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="mes" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el mes del acontecimiento" class="form-control input-md" required="required" value="@lugaredit.getMes()">
+			  		</div>
+				</div>
+			
+				<!-- Caja de texto para canto-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Canton:</label>  
+			  		<div class="col-md-6">
+			  			<table>
+			  				<tr>
+                				<td>
+                					<input id="optenercanton" name="nomcanton" type="text" style="width : 100px; heigth : 30px" placeholder="Ingrese el canton" class="form-control input-md" required="required" value="@lugaredit.canton.getNomcanton()">
+                				</td>
+                				
+                				<td>
+                					<!-- Seleccion de los diferentes cantones -->
+    								<select id="pasarcanton" name="pasarcanton" size="1" onchange= "javascript:funcion(pasarcanton.value)">
+    									<option value="">-- Seleccione --</option>
+										@for(canton <- canton1){
+										<option value="@canton.nomcanton">@canton.nomcanton</option>
+										}
+									</select>
+                				</td>
+                				
+            				</tr>
+			  			</table>
+			  		</div>
+				</div> 
+			    
+			</fieldset>
+        </div>
+      	<br>
+      	<!-- botones de acciones -->
+      	<div align="center" class="modal-footer">
+      		<button type="submit" class="btn btn-success"> <i class="fa fa-save"> </i>Guardar</button>
+      	</div>
+    </form>
+     </td>
+    </table>
+    <br>
+    <div align="center">
+            <a href="@routes.HomeController.lugar()">Atras</a>
+	</div>
+   </div>
+</div>
+}
