@@ -1,0 +1,69 @@
+@(canton1: List[Canton])
+@main("Vista Cantón"){
+
+<!-- Libreria para las tildes -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Estructura inicial -->
+<div>
+  <div class="modal-dialog">
+  	<table align="center" WIDTH=300 HEIGHT=200>
+  	<tr>
+  	<td bgcolor= "#151515" style="font-weight:bold; color:#088A08;" align="center" colspan="2"><FONT SIZE=6>Servidor Web Turismo</font></td>
+	</tr>
+	<tr>
+  	<td style="font-weight:bold; color:#FFFFFF;" align="center" colspan="3"> .  </td>
+	</tr>
+	
+  	<td>
+    <form class="form-horizontal" action="/saveCanton" method="POST">
+    	<div class="modal-body">
+	    	<fieldset  style="width:600px; background-color:Beige">
+	    	<legend style="font-weight:bold; color:#088A08;"><FONT SIZE=4>Nuevo Cantón</font></legend>
+	    	
+			
+				<!-- Caja de texto para nombre del canton-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Nombre del Cantón:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="nomcanton" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el nombre del cantón" class="form-control input-md" required="required">
+			  		</div>
+				</div>
+			</fieldset>
+        </div>
+      	<br>
+      	<!-- botones de acciones -->
+      	<div align="center" class="modal-footer">
+      		<button type="submit" class="btn btn-success"> <i class="fa fa-save"> </i> Guardar</button>
+        	<button type="Reset" class="btn btn-default" data-dismiss="modal"> <i class="fa fa-times"> </i> Cancelar</button>
+      	</div>
+    </form>
+    </td>
+    <tr>
+  	<td bgcolor= "#151515" style="font-weight:bold; color:#088A08;" align="center" colspan="4"><FONT SIZE=5>Listado de Resultados</font></td>
+	</tr>
+    <tr>
+  		<table align="center" border="2px">
+                <tr>
+		    		<th scope="col" bgcolor="#088A08">CANTÓN</th>
+					<th scope="col" bgcolor="#088A08" colspan="2">OPCIONES</th>		    		
+		    		
+                </tr>
+                @for(canton <- canton1) {		
+                <tr>
+                    <td>@canton.nomcanton</td>
+                    <td><a href="@routes.HomeController.editarcanton(canton.id)">Editar</a></td>
+                    <td><a href="@routes.HomeController.deleteCanton(canton.id)">Eliminar</a></td>
+                </tr>
+                }
+        </table>
+	</tr>
+    </table>
+    <br>
+    <div align="center">
+            <a href="@routes.HomeController.lugar()" role="button" class="btn btn-default btn-lg active">REGISTRAR NUEVO LUGAR</a>
+	</div>
+   </div>
+</div>
+
+}

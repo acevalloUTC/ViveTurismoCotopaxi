@@ -1,0 +1,155 @@
+@(canton1: List[Canton],lugar1:List[Lugar])
+@main("Vista Lugares"){
+
+<!-- Libreria para las tildes -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<!-- Javascript para efectos de Scroll de la Tabla -->
+<script type="text/javascript">
+//Change the selector if needed
+var $table = $('table.scroll'),
+    $bodyCells = $table.find('tbody tr:first').children(),
+    colWidth;
+
+// Adjust the width of thead cells when window resizes
+$(window).resize(function() {
+    // Get the tbody columns width array
+    colWidth = $bodyCells.map(function() {
+        return $(this).width();
+    }).get();
+    
+    // Set the width of thead columns
+    $table.find('thead tr').children().each(function(i, v) {
+        $(v).width(colWidth[i]);
+    });    
+}).resize(); // Trigger resize handler
+</script>
+
+
+<!-- Estilo de movimiento para la tabla -->
+<style>
+table.scroll {
+    width: 100%; /* Optional */
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+}
+
+table.scroll tbody,
+table.scroll thead { display: block; }
+
+table.scroll tbody {
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+tbody td, thead th {
+    width: 20%; /* Optional */
+}
+</style>
+
+<!-- Estructura inicial -->
+<div>
+  <div class="modal-dialog">
+  	<table align="center" WIDTH=300 HEIGHT=200>
+  	<tr>
+  	<td bgcolor= "#151515" style="font-weight:bold; color:#088A08;" align="center" colspan="2"><FONT SIZE=6>Servidor Web Turismo</font></td>
+	</tr>
+	<tr>
+  	<td style="font-weight:bold; color:#FFFFFF;" align="center" colspan="3"> .  </td>
+	</tr>
+	
+  	<td>
+    <form class="form-horizontal" action="/saveLugar" method="POST">
+    	<div class="modal-body">
+	    	<fieldset  style="width:600px; background-color:Beige">
+	    	<legend style="font-weight:bold; color:#088A08;"><FONT SIZE=4>Nuevo Lugar</font></legend>
+	    	
+			
+				<!-- Caja de texto para nombre del lugar-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Nombre del lugar:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="nomlugar" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el nombre del lugar" class="form-control input-md" required="required">
+			  		</div>
+				</div>
+
+				<!-- Caja de texto para el acontecimiento-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Acontecimiento:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="acontecimiento" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el acontecimiento" class="form-control input-md" required="required">
+			  		</div>
+				</div>
+
+				<!-- Caja de texto para mes-->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="textinput">Mes del acontecimiento:</label>  
+			  		<div class="col-md-6">
+			  			<input id="textinput" name="mes" type="text" style="width : 250px; heigth : 30px" placeholder="Ingrese el mes del acontecimiento" class="form-control input-md" required="required">
+			  		</div>
+				</div>
+			
+			    <!-- Seleccion de los diferentes cantones -->
+				<div class="form-group">
+			  		<label class="col-md-4 control-label" for="selectbasic">Canton:</label>
+			  			<div class="col-md-6">
+			    			<select id="canton" name="canton">
+			    				<option value="">--Seleccione una opcion--</option>
+								@for(canton <- canton1){
+									<option value="@canton.id">@canton.nomcanton </option>
+								}
+							</select>
+			  			</div>
+				</div>
+			</fieldset>
+        </div>
+      	<br>
+      	<!-- botones de acciones -->
+      	<div align="center" class="modal-footer">
+      		<button type="submit" class="btn btn-success"> <i class="fa fa-save"> </i> Guardar</button>
+        	<button type="Reset" class="btn btn-default" data-dismiss="modal"> <i class="fa fa-times"> </i> Cancelar</button>
+      	</div>
+    </form>
+    </td>
+    <tr>
+  	<td bgcolor= "#151515" style="font-weight:bold; color:#088A08;" align="center" colspan="4"><FONT SIZE=5>Listado de Resultados</font></td>
+	</tr>
+    </td>
+    <tr>
+  		<table class="scroll">
+  		<thead>
+                <tr>
+		    		<th scope="col" bgcolor="#088A08">ACONTECIMIENTO</th>
+		    		<th scope="col" bgcolor="#088A08">LUGAR</th>
+		    		<th scope="col" bgcolor="#088A08">MES</th>
+		    		<th scope="col" bgcolor="#088A08">CANTÓN</th>
+					<th scope="col" bgcolor="#088A08" colspan="2">OPCIONES</th>		    		
+                </tr>
+        </thead>
+        <tbody>
+                @for(lugar <- lugar1) {		
+                <tr>
+                    <td>@lugar.acontecimiento</td>
+                    <td>@lugar.nomlugar</td>
+                    <td>@lugar.mes</td>
+                    <td>@lugar.canton</td>
+                    <td><a href="@routes.HomeController.editarlugar(lugar.id)">Editar</a></td>
+                    <td><a href="@routes.HomeController.deleteLugar(lugar.id)">Eliminar</a></td>
+                </tr>
+                }
+		</tbody>                
+        </table>
+	</tr>
+    </table>
+    <br>
+    <div align="center">
+            <a href="@routes.HomeController.canton()" role="button" class="btn btn-default btn-lg active">REGISTRAR NUEVO CANTON</a>
+	</div>
+	<br>
+	<div align="center">
+            <a href="@routes.HomeController.administrador()" role="button" class="btn btn-default btn-lg active">Atras</a>
+	</div>
+   </div>
+</div>
+}

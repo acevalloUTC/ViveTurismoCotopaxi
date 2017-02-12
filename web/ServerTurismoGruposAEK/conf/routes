@@ -1,0 +1,48 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+GET     /atractivos                 controllers.HomeController.atractivos
+GET     /calendario                 controllers.HomeController.calendario
+GET     /administrador              controllers.HomeController.administrador
+GET     /atractivosingresar         controllers.HomeController.atractivosingresar
+GET     /logincalendario            controllers.HomeController.logincalendario
+GET 	/buscarManifestaciones		controllers.HomeController.buscarManifestaciones
+GET 	/buscarNaturales			controllers.HomeController.buscarNaturales
+GET 	/paramos					controllers.HomeController.paramos
+GET 	/buscarManifestacionesVista	controllers.HomeController.buscarManifestacionesVista
+GET 	/buscarNaturalesVista		controllers.HomeController.buscarNaturalesVista
+GET 	/paramosVista				controllers.HomeController.paramosVista
+
+
+POST	/save						controllers.HomeController.save
+GET   /delete/$id<[0-9]+>    		controllers.HomeController.delete(id: Long)
+GET   /edit/$id<[0-9]+>    			controllers.HomeController.edit(id: Long)
+POST	/update						controllers.HomeController.update
+
+GET     /jsonLugar               	controllers.HomeController.jsonLugar()
+
+# Controles de calendarios
+
+GET     /canton                     controllers.HomeController.canton
+GET     /lugar                      controllers.HomeController.lugar
+
+POST	/saveLugar				    controllers.HomeController.saveLugar
+POST	/saveCanton				    controllers.HomeController.saveCanton
+
+GET     /editarlugar/:id            controllers.HomeController.editarlugar(id:Long)
+POST    /updatelugar        		controllers.HomeController.updatelugar
+GET     /deleteLugar/:id            controllers.HomeController.deleteLugar(id:Long)
+
+GET     /editarcanton/:id           controllers.HomeController.editarcanton(id:Long)
+POST    /updatecanton    		    controllers.HomeController.updatecanton
+GET     /deleteCanton/:id           controllers.HomeController.deleteCanton(id:Long)
+# An example controller showing how to use dependency injection
+GET     /count                      controllers.CountController.count
+# An example controller showing how to write asynchronous code
+GET     /message                    controllers.AsyncController.message
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

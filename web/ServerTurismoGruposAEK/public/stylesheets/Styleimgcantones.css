@@ -1,0 +1,132 @@
+<!-- Estilo de la imagen Latacunga -->
+#containerlatacunga {
+	margin: 0 auto;
+}
+.ex2latacunga img{
+height: 250px;
+width: 600px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2latacunga img:hover {
+height: 280px;
+width: 630px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen La Mana -->
+#containerlamana {
+	margin: 0 auto;
+}
+.ex2lamana img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2lamana img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen Saquisili -->
+#containersaquisili {
+	margin: 0 auto;
+}
+.ex2saquisili img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2saquisili img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen Sigchos -->
+#containersigchos {
+	margin: 0 auto;
+}
+.ex2sigchos img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2sigchos img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen Pangua -->
+#containerpangua {
+	margin: 0 auto;
+}
+.ex2pangua img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2pangua img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen Salcedo -->
+#containersalcedo {
+	margin: 0 auto;
+}
+.ex2salcedo img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2salcedo img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}
+
+<!-- Estilo de la imagen Pujili -->
+#containerpujili {
+	margin: 0 auto;
+}
+.ex2pujili img{
+height: 100px;
+width: 100px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2pujili img:hover {
+height: 130px;
+width: 130px;
+margin-left: -5px;
+}

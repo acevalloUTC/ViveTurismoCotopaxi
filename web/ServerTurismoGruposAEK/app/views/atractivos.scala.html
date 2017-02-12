@@ -1,0 +1,284 @@
+@(tur: List[Turismo],categ: List[Canton],sub: List[Parroquia],categ1: List[Categoria],sub1: List[Subcategoria])
+
+@main("Atractivos") {
+
+@if(flash.containsKey("ok")) {
+  <h1>@flash.get("ok")</h1>
+}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <center>
+ <title></title>
+
+  <h4><strong> <i class="fa fa-home"> </i> Atractivos Turisticos</strong> 
+   </h4>
+    <a  href="@routes.HomeController.atractivos()" class="btn btn-primary" id="menuTodo" > <i class="fa fa-plus-circle"> </i> TODO </a>
+    <a  href="@routes.HomeController.buscarManifestacionesVista()" class="btn btn-primary" > <i class="fa fa-plus-circle"> </i> MANIFESTACIONES </a>
+    <a href="@routes.HomeController.buscarNaturalesVista()" class="btn btn-primary" > <i class="fa fa-plus-circle"> </i> SITIOS NATURALES</a>
+  
+  </center>
+  <br>
+
+<div class="container">
+
+
+	@if(! tur.isEmpty()) {
+	  	@for(t <- tur) {
+	  		<div class="row well">
+		  	<div class="col-md-2">
+		  		<div class="thumbnail">
+		  			<img src="@routes.Assets.versioned("images/atractivos/")@t.getFoto()">
+		  		</div>  		
+	
+		  	</div>	
+		  	<div class="col-md-10">
+		  	
+		  		<legend><strong> @t.getName()</strong>
+		  		
+		  		 </legend>
+		  		<p align="justify">
+		  			@t.getDescription()
+		  		</p>
+		  		<p>
+		  			<strong>Categoría: </strong> @t.getCategoria.getName()
+		  		</p>
+		  		<p>
+		  			<strong>Subcategoria: </strong> @t.getSubcategoria.getName()
+		  		</p>
+		  		<p>
+		  			<strong>Cantón: </strong> @t.getCanton.getNomcanton()
+		  		</p>
+		  		<p>
+		  			<strong>Parroquia: </strong> @t.getParroquia.getName()
+		  		</p>
+		  		<p>
+		  			<strong>Direcciòn: </strong> @t.getDireccion()
+		  		</p>
+		  		<span class="pull-right"> 
+		  		</span>
+	
+		  	</div>
+		</div>
+		}
+	} else {
+	  <h3>no existe lugares turisticos!</h3>
+	}
+
+	<div class="row">
+		<center>
+			<ul class="pagination">
+			  <li><a href="#">&laquo;</a></li>
+			  <li><a href="#">1</a></li>
+			  <li><a href="#">2</a></li>
+			  <li><a href="#">3</a></li>
+			  <li><a href="#">4</a></li>
+			  <li><a href="#">5</a></li>
+			  <li><a href="#">&raquo;</a></li>
+			</ul>	
+		</center>		
+	</div>
+
+
+</div>
+
+<br>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"> <i class="fa fa-plus-circle"> </i> <strong> Nuevo Atractivo Turistico </strong></h4>
+      </div>
+      <form class="form-horizontal" action="/save" method="POST">
+      <div class="modal-body">
+       <fieldset>
+        @if(! categ1.isEmpty()) {
+	  	
+			
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Categoria:</label>  
+			  <div class="col-md-6">
+			 <select name="cat1" required="required" id="cargarsub1" class="form-control">
+			 	<option value="">--SELECCIONE--</option>
+			 	@for(c <- categ1) {
+			 	<option value="@c.getId()">@c.getName()</option>
+			 	}
+			 </select>
+			  <span class="help-block">Ej. Paramos y Aventuras</span>  
+			  </div>
+			</div>
+			
+		} else {
+		  <h3>No existen Categorias!</h3>
+		}
+		
+		@if(! sub1.isEmpty()) {
+	  	
+			
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Sub categoria:</label>  
+			  <div class="col-md-6">
+			 <select name="sub1" required="required" id="subcategoria11" class="form-control">
+			 	<option>--SELECCIONE--</option>
+			 
+			 </select>
+			  <span class="help-block">Ej.Rutas</span>  
+			  </div>
+			</div>
+			
+		} else {
+		  <h3>No existe Subcategorias!</h3>
+		}
+			<div id="cargarSub1">
+				
+			</div>
+			
+       <fieldset>
+        @if(! categ.isEmpty()) {
+	  	
+			
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Canton:</label>  
+			  <div class="col-md-6">
+			 <select name="cat" required="required" id="cargarsub" class="form-control">
+			 	<option value="">--SELECCIONE--</option>
+			 	@for(c <- categ) {
+			 	<option value="@c.getId()">@c.getNomcanton()</option>
+			 	}
+			 </select>
+			  <span class="help-block">Ej. Latacunga</span>  
+			  </div>
+			</div>
+			
+		} else {
+		  <h1>No exixten Cantones!</h1>
+		}
+		
+		@if(! sub.isEmpty()) {
+	  	
+			
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Parroquia:</label>  
+			  <div class="col-md-6">
+			 <select name="sub" required="required" id="subcategoria1" class="form-control">
+			 	<option>--SELECCIONE--</option>
+			 
+			 </select>
+			  <span class="help-block">Ej. La matriz</span>  
+			  </div>
+			</div>
+			
+		} else {
+		  <h1>No exixten Parroquias!</h1>
+		}
+			<div id="cargarSub">
+				
+			</div>
+			
+			 
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Nombre:</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="name" type="text" placeholder="Ingrese el nombre" class="form-control input-md" required="required">
+			  <span class="help-block">Ej. Parque Nacional Cotopaxi</span>  
+			  </div>
+			</div>
+			
+			<!-- Textarea -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textarea">Descripcion:</label>
+			  <div class="col-md-6">                     
+			    <textarea class="form-control" id="textarea" name="description" required="required"></textarea>
+			  </div>
+			</div>
+			
+			<!-- File Button --> 
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="filebutton">Imagen:</label>
+			  <div class="col-md-6">
+			    <input id="filebutton" name="foto" type="file" class="form-control" placeholder="Ingrese nombre de imagen" required="required">
+			  </div>
+			</div>
+			
+			
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="textinput">Direccion:</label>  
+			  <div class="col-md-6">
+			  <input id="textinput" name="direccion" type="text" placeholder="Ingrese la direccion" class="form-control input-md" required="required">
+			  <span class="help-block">Ej. Av. SImon Rodiguez. Barrio El Ejido</span>  
+			  </div>
+			</div>
+			
+			</fieldset>
+
+      </div>
+      <div class="modal-footer">
+      	<button type="submit" class="btn btn-success"> <i class="fa fa-save"> </i> Guardar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"> <i class="fa fa-times"> </i> Cancelar</button>
+      </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+ <div class="thumbnail">			 	
+ 	<img src="@routes.Assets.versioned("images/barras.png")" >			 	
+</div> 		
+
+<br>
+
+
+<script>
+$('#cargarsub').on('change', function() {
+	$('#subcategoria1').html("");
+	var va=this.value;  
+	$('#subcategoria1').append("<option>--Seleccione--</option>");
+	@for(s <- sub) {
+		var idAuxCategoria=@s.getCanton.getId();
+			
+		if(idAuxCategoria==va){
+			//alert("ok @s.getName()");
+			$('#subcategoria1').append("<option value='@s.getId()'>@s.getName()</option>");
+		}
+			
+	}
+		
+	
+});
+	
+	
+
+	
+</script>
+<script>
+$('#cargarsub1').on('change', function() {
+	$('#subcategoria11').html("");
+	var va=this.value;  
+	$('#subcategoria11').append("<option>--Seleccione--</option>");
+	@for(s <- sub1) {
+		var idAuxCategoria=@s.getCategoria.getId();
+			
+		if(idAuxCategoria==va){
+			//alert("ok @s.getName()");
+			$('#subcategoria11').append("<option value='@s.getId()'>@s.getName()</option>");
+		}
+			
+	}
+		
+	
+});
+	
+	
+
+	
+</script>
+
+
+}
