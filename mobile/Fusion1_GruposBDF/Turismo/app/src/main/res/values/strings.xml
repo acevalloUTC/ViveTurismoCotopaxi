@@ -1,0 +1,428 @@
+<resources xmlns:ACTIVIDADES="http://schemas.android.com/tools">
+    <string name="app_name">Vive Turismo</string>
+    <string name="drawer_open">Menú abierto</string>
+    <string name="not_available_text">N/A</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_close">Menú cerrado</string>
+    <string name="title_activity_mapas">Mapas</string>
+    <string name="title_activity_sitios__naturales">Sitios_Naturales</string>
+    <string name="title_activity_aguas">Aguas</string>
+    <string name="titulo_actividad_detalle"></string>
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+    <string name="title_activity_galeria_paramos_fi">GaleriaParamosFi</string>
+    <string name="title_activity_rutaprincipal">Rutaprincipal</string>
+    <string name="title_activity_parque_coto">ParqueCoto</string>
+    <string name="title_activity_ruta__quilotoa1">Ruta_Quilotoa1</string>
+
+    <string-array name="circuito">
+
+        <item> AGUAS SUBTERÁNEAS Y AMBIENTES LACUSTRES</item>
+
+        <item> FENÓMENOS ESPELEOLÓGICOS Y GEOLÓGICOS</item>
+
+        <item> MONTAÑAS Y PLANICIES </item>
+
+        <item> RÍOS </item>
+
+        <item> SISTEMA DE ÁREAS PROTEGIDAS </item>
+
+    </string-array>
+
+    <!-- **************** CIRCUITO CHICO ****************** -->
+
+
+    <string-array name="circuitochico_titulo">
+
+        <item>Aguas Termales de Aluchán</item>
+
+        <item>Laguna de Limpiopungo</item>
+
+        <item>Laguna de Yambo</item>
+
+        <item>Complejo Llanganati</item>
+
+        <item>Laguna de Quilotoa</item>
+
+        <!-- 8 items -->
+
+
+    </string-array>
+    <string-array name="circuitochico_contenido">
+
+        <item>Se encuentra ubicado a 28 km de Pujili.</item>
+
+        <item>Se encuentra ubicado a 21 Kilimetros de la Parroquia de Mulalo.</item>
+
+        <item>Se encuentra ubicado a 7 Kilometros de la cabecera cantonal de Salcedo.</item>
+
+        <item>Se ubica en el paramo oriental del canton Salcedo.</item>
+
+        <item>La laguna de encuentra ubicada en el cantón Sigchos parroquia de Chugchilan.</item>
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitochico_contenido_completo">
+
+        <item>Es una fuente de agua termal que nace al pie de una montaña con un caudal de cinco litros por segundo aproximadamente.
+              La temperatura es mayor de 30ºC, no presenta caracteristicas de color ni sabor y tiene cantidades muy bajas de hierro.
+              ACTIVIDADES: Fotografias , paisajismo , Trekking , Turismo de salud , Observacion de aves.
+              ACCESO: Se puede acceder por una vía empedrada regular, en transporte privado o contratado.
+        </item>
+
+        <item>Es el resultado morfologico de los lahares del Cotopaxi, es decir que se ha formado por el derretimiento súbito del casquete
+              de hielo y nieve al ponerse en contacto con flujos priroclasticos y/o lava.
+              ACTIVIDADES: Impretacion ambiental, Fotografias , Tekking.
+              ACCESO: La via se encuentra en buen estado, el vehiculo llega a pocos metros del recurso.
+              Se puede ingresar por Latacunga- entra al Parque Nacional Cotopaxi - Control Caspi.
+        </item>
+
+        <item>Yambo es una laguna de origen puvial, en su contorno posee diferentes vertientes se estima que su parte mas profunda puede
+              alcanzar los 150 metros mide aproximadamente 1000 m de logitud por 400 m de ancho, el agua tiene una coloracion turquesa algo
+              amarillenta ACTIVIDADES: Paisajismo , Fotografia , Observación de aves, Flora y Fauna. ACCESO-: Dificultad de acceso media se
+              encuentra con una via mixta asfaltada y lastrada.
+        </item>
+
+        <item>El complejo lacustre comprende un conjunto de lagunas de origen glaciar alimentadas por ríos y rianchuelos o inundaciones
+              estacionales entre las cuales se destacan un par de lagunas con una singular forma unida por un riachuelo que se asemejan
+              a sus anteojos.
+              ACTIVIDADES: Senderismo , Educación Ambiental , Observacion de Flora y Fauna, Camping, Trekking.
+              ACCESSO: Se debe tomar la via Salcedo - Tena hasta el km 32, desde la cabecera cantonal de salcedo.
+        </item>
+
+        <item>La laguna ubicada en el cráter del volcal inactivo forma parte de la reserva ecologica los Ilinizas. El color de sus aguas
+              varia entre azul y verde debido a la gran cantidad de minerales, y la refracción de la luz solar.
+              ACTIVIDADES: Trekking, Vistas panoramicas, Turismo cientifico(geologica).
+              ACCESO: Chugchilan - Guayama San Pedro, por medio de un sendero que lleva la cumbre del cráter, se puede encontrar facilidades
+              turisticas a 2 km junto al mirador del Centro Turistico Comunitario Lago Verde Quilotoa.
+        </item>
+
+    </string-array>
+
+    <!-- **************** CIRCUITO LUNAR ****************** -->
+
+    -
+
+    -
+    <string-array name="circuitolunar_titulo">
+
+        <item>Cueva Minus Uctu</item>
+
+        <item>Laguna de Quilotoa</item>
+
+        <item>Mirador Cañón del Toachi</item>
+
+        <item>Columnas de Tangan</item>
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitolunar_geo">
+
+        <item />
+
+        <item />
+
+        <item />
+
+        <item />
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitolunar_contenido">
+
+        <item>Se localiza a 3 km de la comunidad Apahua, de la parroquia Pilalo a 3893 m.s.n.m</item>
+
+        <item>La laguna de encuentra ubicada en el cantón Sigchos parroquia de Chugchilan...</item>
+
+        <item>Se encuentra ubicado a 4km del centro parroquial de Zunbahua a una latitud de 3497 m.s.n.m</item>
+
+        <item>Se encuentra cecanas a los ejes de acceso de la via secundaria Cerro Azul.</item>
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitolunar_contenido_completo">
+
+    <item>La Cueva Minus Uctu tiene una entrada de 5km de altura, al pie de un cerro que tiene una figura de catedral Gotica, formada por la acción del viento sobre las paredes rocosas.
+    ACTIVIDADES-: Espeleologia , Trekking , Fotografìa
+    ACCESO-: Dificultad de acceso media , desde la via asfaltada Pujili - La Mana a la altura de Apahua - Corralpungo, tomar la via lastrada por 3km aproximadamente </item>
+
+        <item>La laguna ubicada en el cráter del volcal inactivo forma parte de la reserva ecologica los Ilinizas. El color de sus aguas varia entre azul y verde debido a la gran cantidad de minerales, y la refracción de la luz solar. ACTIVIDADES-: Trekking, Vistas panoramicas, Turismo cientifico(geologica). ACCESO-: Chugchilan - Guayama San Pedro, por medio de un sendero que lleva la cumbre del cráter, se puede encontrar facilidades turisticas a 2 km junto al mirador del Centro Turistico Comunitario Lago Verde Quilotoa.</item>
+
+    <item>El Cañon del Toachi nace en la Comunidad de Michacala de la parroquia de Zumbahua, posiblemente se formo producto fuentes terremotos que se sucitaron en la zona hace mas de cnco mil años.
+    ACTIVIDADES-: Fotografia , Paisajismo , Turismo Cientifico
+    ACCESO-: Vias asfaltadas en buen estado por la via Pujili - Zumbahua - Ponce Quilotoa.</item>
+
+    <item>El sito se caracteriza especialmente por unas imprecionantes estructuras de piedras en un orden y forman caracteristicas que asemejan grandes columnas de 1 m de ancho con espacios entre si, y altura entre 30 y 100 metros; sobre las cuales se encuentran establecidas rutas de escalada.
+    ACTIVIDADES-: Escalada deportiva , Trekking , camping.
+    ACCESO-: Para llegar este sitio se puede tomar desde la ciudad de Sigchos - Yalo - comunidad de Tangán por una via de tercer orden a 9km hasta el sector conocido como Lancili.</item>
+
+    </string-array>
+
+    <!-- **************** RUTA DEL VINO ****************** -->
+
+    -
+
+    -
+    <string-array name="rutadelvino_titulo">
+
+        <item>Nevados Ilinizas</item>
+
+        <item>Cerro Putzalahua</item>
+
+        <item>Volcán Cotopaxi, Geologia e Historia</item>
+
+        <item>Complejo Montañoso Thzirimatzi</item>
+
+        <item>Mirador Chinaló Bajo</item>
+
+        <item>Mirador de Turupamba</item>
+
+        <item>Valle de Altura Michacalá</item>
+
+    </string-array>
+    -
+
+    -
+    <string-array name="rutadelvino_geo">
+
+        <item />
+
+        <item />
+
+        <item />
+
+        <item />
+
+        <item />
+
+    </string-array>
+    -
+
+    -
+    <string-array name="rutadelvino_contenido">
+
+        <item>Se encuentra ubicado a 20km de la parroquia Toacazo, a una altitud de 5263 m.s.n.m</item>
+
+        <item>Esta Ubicado a 14km de Belizario Quevedo a una altitud de 3523 m.s.n.m</item>
+
+        <item>El volcan Cotopaxi se encuentra en la coodillera occidental.</item>
+
+        <item>Se encuentra a 8km de la Parroquia Zumbahua</item>
+
+        <item>Se encuentra ubicado a 15 minutos de la via Cochalo - Sigchos, a una altitud de 2966 m.s.n.m</item>
+
+        <item>Se encuentra ubicado a 5km del centro parroquial de Chugchilan</item>
+
+        <item>Se encuentra ubicado a 7km del centro parroquial de Zumbahua </item>
+
+    </string-array>
+    -
+
+    -
+    <string-array name="rutadelvino_contenido_completo">
+
+    <item>Contituye un hermoso conjunto montañoso dormado por dos elevaciones empinadas. Iliniza Norte (5126 m.s.n.m) de estructura rocosa y sin nieve permanente, para escalar es necesario contar con equipo técnico lo permite se podra admirar las montañas como el Iliniza Sur. Iliniza Sur (5263 m.s.n.m) Es la montaña mas dificil de escalar por lo que requiere de gran habilidad y destreza.
+    ACTIVIDADES-: Fotografias , Paisajismo , Observacion de Flora y Fauna, Interpretacion Ambiental, Escalada Deportiva.
+    ACCESO-: Para escalar se recomienda la temporada que va desde Agosto hasta Diciembre, debido a la aucencias de lluvias</item>
+
+    <item>Es un cerro de forma cónica alargada al que se atribuye un origen volcanico. Desde el mirador ubicado en la cima, se tiene una vista panoramica de la avenida de los volcanes, la ciudades de Latacunga , Salcedo , y el Parque Nacional Llanganates.
+    ACTIVIDADES-: Se puede realizar caminatas, calbagatas , Ciclismo , Fotografias , y disfrutar de la vista Panoramica.
+    ACCESO-: Desde Latacunga - Belizario Quevedo por una via asfaltada</item>
+
+    <item>Es el estrato volcanico mas alto y activo del mundo situado en el nudo de Tiopullo, su base es circular de aproximadamente 20km de diametro y posee un perfecto cono que le da una belleza unica cubierta de glaciares y un manto de surcos profundos que en direcciones radiales divide la superficie del edificio volcanico en sectores elevados.
+    ACTIVIDADES-: Fotografias, Ascenso al Crater , Paisajismo Trekking.
+    ACCESO-: Se puede acceder por la via Latacunga - El chasqui (Parque Nacional Cotopaxi) - Control Caspi.</item>
+
+    <item>Esta conformadas por franjas montañosas de singulares caracteristicas con diversas formas y tamaños que convierten a este conjunto rocoso y escarpado en un sitio privilegiado para apreciar sus formas geologicas naturales.
+    ACTIVIDADES-: Escalada Deportiva - Fotografia - Paisajismo.
+    ACCESO-: Desde la Via Asfaltada Pujili - Zumbahua.</item>
+
+    <item>El sitio forma parte del Circuito Turistico Zumbahua - Chugchilan para apreciar una vista del Cañon de Toachi, cuenta con facilidades turisticas como es una caseta de 2,50km por 2m, baranda de seguridad de madera de 10 metros de longitud, basureros y señales de información.
+    ACTIVIDADES-: Mirador Turistico Observación de Flora y Fauna, Interpretación y educación ambiental.
+    ACCESO-: Por la Via Latacunga - Sigchos - Chugchilan con Buses desde el terminal a partir desde las 03H00.</item>
+
+    <item>Desde ese punto se puede observar al nevado los Ilinizas, el canñon de rio Toachi, los picos de la caldera que forma la Laguna del Quilotoa en todo su esplandor.
+    ACTIVIDADES-: Mirador Turistico , Fotografias Panoramicas.
+    ACCESO-: Acceso por la via lastrada Chugchilan - Pucayacu - y un sendero en condiciones rgulares.</item>
+
+    <item>La planicie en la que se encuentra la comunidad de Michacala tiene un clima humedo debido a las bajas temperaturas y la frecuente imformacion  de habitad.
+    ACTIVIDADES-: Punto de vista de paisajes cultural Andino, turismo de convivencia , caminata, Trekking.
+    ACCESO-: El ingreso a la comunidad durante todo el año por una via carrozable aunque puede dificultar su uso en epocas de lluvias.</item>
+    </string-array>
+
+    <!-- **************** CIRCUITO DEL SOL ****************** -->
+
+    -
+
+    -
+    <string-array name="circuitodelsol_titulo">
+
+        <item>Cascada Tinieblas</item>
+
+        <item>Siete cascadas del Zapanal</item>
+
+        <item>Cascada Milagros</item>
+
+        <item>Cascada del Oso</item>
+
+        <item>Cascada de Lomapi</item>
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitodelsol_geo">
+
+        <item />
+
+        <item />
+
+        <item />
+
+        <item />
+
+        <item />
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitodelsol_contenido">
+
+        <item>Se encuentra Ubicada en la Parroquia Pumayacu a 6 Kilometros del centro...</item>
+
+        <item>Se encuentra Ubicada en el Canton Pangua a 14 Kilometros del Canton....</item>
+
+        <item>Se encuentra en la Parroquia El Tingo a 1,4 Kilomtros de la Hidroelectrica......</item>
+
+        <item>Esta Ubicada a 14 Km de distancia de la Parroquia el Tingo La esperanza a una altitud de 782 m.s.n.m</item>
+
+        <item>Se encuentra ubicada en la Parroquia Chugchilan pero su mejor via de acceso es por el recinto el Palmar del canton Pujili</item>
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitodelsol_contenido_completo">
+
+        <item>El nombre de la cascada se debe a que esta ubicada en el sector del mismo nombre. En su parte mas prolongada tiene un acaida
+        de unos 120m. Con una pendiente de sesenta grados, formando tres pozas de entre 2 a 4 metros de diametro, y una poza de 10m
+        de longitud por 2m de ancho aproximadamente con una profundidad de 4m dando forma a una piscina natural que es muy visitada
+        por los pobladores locales
+        ACTIVIDADES:- Rappel , Turismo de Salud , Hidromasaje Natural y balneario Natural.
+        ACCESO:- Desde la Mana - Guayacán , Pucayacu por la via asfaltada y lastrada</item>
+
+        <item>Se encuentran conformadas por siete cascadas de diferente tamaño y forman entre las que estan : Chorrea San Martin con una caida de gran fuerza
+        Chorrea Escondida ya que esta oculta entre grandes piedras, La muerte con una altura aproximada de 80 metros. El Amor que se a
+        convertido en el refugio para los novios. El Tobogsn la que mas disfrutan los bañistas por las formas de sus piedras que asemejan
+        a un tobogan natural. La tinia de Piedra y La Piedra de los arrepentidos con una vista privilegiada del bosque que las circulan.
+        ACTIVIDADES:- Trekking , Balnearios Naturales , Interpretación Natural
+        ACCESO:- Se puede acceder en vehiculo en un recorrido de 20 minutos desde el canton La Mana y tomando la cooperativa de transporte
+        San Pablo que cubre la ruta La Mana - Estereo Hondo.</item>
+
+        <item>Al lado Izquierdo de la carretera se observa una pequeña caida de agua, sobre una pared de roca, de aproximadamente 10m
+        y otra de unos 70m de altura siguiendo un corto sendero que atravieza el riechuelo hasta una poza en la base de la cascada
+            entre dos montañas y rodeado de un pequeño remanente de bosque primario.
+            ACTIVIDADES:- Fotografias , Balneario natural Sitio de camping y Trekking.
+            ACCESO:- Via Latacunga - La Maná , Acceso permanente de baja dificultad.</item>
+
+        <item>Tiene una caida de 120 m aproximadamente formando en su base una poza de 2.5m con una temperatura de 10º C, la cascada esta ubicada
+            dentro de la Reserva Ecologica los Ilinizas y su nombre se debe a la existencia de osos de anteojos.
+        ACTIVIDADES:- Trekking , Fotografias , paisajismo , observación de aves, Turismo Cientifico.
+        ACCESO:- Via Pujili - La Mana - Sector Jesus del Gran Poder - Ingreso a la cascada del oso (Caminar 2 horas y 30 minutos
+        desde donde se termina la via carroseble).</item>
+
+        <item>En el sitio se puede observar 3 cascadas las mas altas. Ubicadas en un nivel superior tiene una altura de 15m, la segunda
+        en una similar altitud, la tercera es de unos 5m. Hacia abajo se puede observar 2 caidas mas de aguas de alrededor de 4m
+        forman unos mantos blancos de agua, los mismos que disminuyen o aumentan dependiendo de la temporalidad del clima.
+        ACTIVIDADES:- Balneario Natural , Trekking , Interpretación Ambiental , Fotografias
+        ACCESO:- Desde la via Pujili - La Mana, en el sector del Palmar, se toma una via de tercer orden y luego un sendero
+        poco definido, se recomienda buscar el acompañamiento de un guia de localidad.</item>
+
+
+    </string-array>
+
+    <!-- **************** CIRCUITO VERDE ****************** -->
+
+    -
+
+    -
+    <string-array name="circuitoverde_titulo">
+
+        <item>Parque Nacional Cotopaxi</item>
+
+        <item>Area Nacional de Recreación EL BOLICHE</item>
+
+        <item>Reserva Ecológica y Parque Botánico Pinllopata</item>
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitoverde_geo">
+
+        <item />
+
+        <item />
+
+        <item />
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitoverde_contenido">
+
+        <item>Ubicado en la zona volcanica mas grande del Ecuador a 19km del centro de la parroquia Mulalo</item>
+
+        <item>Se encuentra ubicado a 20km del centro parroquial Mulalo del Cantón Latacunga..</item>
+
+        <item>Ubicado en la zona volcánica mas grande del Ecuador a 19km del centro de la parroquia Mulalo</item>
+
+
+    </string-array>
+    -
+
+    -
+    <string-array name="circuitoverde_contenido_completo">
+
+        <item>El parque Nacional Cotopaxi es el primero a nivel continental y el segundo a nivel nacional despues del parque
+        Nacional Galapagos, creado el 11 de agosto de 1975 y declarado Parque Nacional dentro dl sistema nacional de Areas Protegidas
+        el 26 de julio 1979. El parque Nacional se encuentra la Laguna de Limpiopungo y el volcan Rumiñahui, las vistas tambien
+        incluyen las Lagunas de Santo Domingo y Cajas, el Manantial, Peñas Blancas y las Ruinas Arqueologicas de Salitre.
+        ACTIVIDADES:- Andinismo - Treking - decensos de Bicicleta - Cabalgatas
+        ACCESO:- Ingreso Norte por la poblacion de Machachi, tomando un camino de segundo oreden que atraviesa los poblados de guitig
+        y el pedregar hasta llegar a la caseta de Control. El acceso sur se encuentra en el Kilometro 44 de la Panamericana Sur cerca de
+        la población de Lasso, pasando la comunidad Santa rita, por una via de primer orden hasta el control Caspi.</item>
+
+        <item>Cuenta con una infraestructura para camping, picnic, zona de juegos infantiles, cabañas de alojamiento, restaurante ,
+        un centro de interpretación ambiental de las cuatro regiones del Ecuador, bajo la Adminisración del miisterio de Ambiente
+        en coordinación del mimisterio de Turismo y Empresa de Ferrocarriles del Ecuador para la visita turistica.
+        ACTIVIDADES:- Ecoturismo , Interpretación Ambiental . observación de Flora y Fauna , camping , picnic.
+        ACCESO:- Desde la via E-35 por via asfaltada junto al parque Nacional Cotopaxi.</item>
+
+        <item>Dentro de este sitio mas conocido como Rancho Escondido, existe una costrcción semejante a un conjunto ceremonial pre-Inca
+        ademas una cascada llamada "El Rincón de Tus Sueños" que tiene sus parades laterales "labrares" regtangularmente, de estas salen canales
+        de agua hechos de piedra redonda gigante, considerada como sagrada, de aproximadamente 5 metros, de diametro.
+        ACTIVIDADES:- Ecoturismo , Aviturismo , Turismo Cintifico , Interpretación Ambiental.
+        ACCESO:- Desde el terminal de Latacunga se toma la cooperativa Pujili a las 09:00 y 14:00 horas</item>
+
+    </string-array>
+    <string name="title_activity_fenomenos">Fenomenos</string>
+    <string name="title_activity_montanas">Montanas</string>
+    <string name="title_activity_rios">Rios</string>
+    <string name="title_activity_areas">Areas</string>
+    <string name="title_activity_manifestaciones">Manifestaciones</string>
+</resources>

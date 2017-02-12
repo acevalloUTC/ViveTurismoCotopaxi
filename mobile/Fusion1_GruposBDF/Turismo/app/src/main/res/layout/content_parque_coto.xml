@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruta2"
+
+    tools:context="com.example.asus1.paramosfi.ParqueCoto">
+    <ImageView
+
+        android:layout_width="88dp"
+        android:layout_height="43dp"
+        android:background="@drawable/bandera2"
+        android:layout_x="189dp"
+        android:layout_y="33dp"
+        android:id="@+id/imageView4"
+        android:layout_margin="0dp"
+        android:padding="0dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_x="56dp"
+        android:layout_y="366dp"
+        android:id="@+id/btnyambo1"
+        android:onClick="ir_laguna_yambo"
+        android:background="@drawable/bandera1"
+        android:elevation="7dp"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:layout_width="117dp"
+        android:layout_x="157dp"
+        android:layout_y="3dp"
+        android:id="@+id/btncomplejo"
+        android:background="@drawable/bandera2"
+        android:elevation="11dp"
+        android:layout_height="100dp"
+        android:onClick="ir_llanganates"
+        />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cho1"
+
+        android:layout_x="2dp"
+        android:layout_y="172dp" />
+
+
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn4"
+        android:background="@drawable/puntorojo"
+        android:layout_x="124dp"
+        android:layout_y="237dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn8"
+        android:background="@drawable/puntorojo"
+        android:layout_x="210dp"
+        android:layout_y="95dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn7"
+        android:background="@drawable/puntorojo"
+        android:layout_x="177dp"
+        android:layout_y="120dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn6"
+        android:background="@drawable/puntorojo"
+        android:layout_x="150dp"
+        android:layout_y="152dp" />
+
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn5"
+        android:background="@drawable/puntorojo"
+        android:layout_x="129dp"
+        android:layout_y="192dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn1"
+        android:background="@drawable/puntorojo"
+        android:layout_x="97dp"
+        android:layout_y="373dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn2"
+        android:background="@drawable/puntorojo"
+        android:layout_x="92dp"
+        android:layout_y="331dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn3"
+        android:background="@drawable/puntorojo"
+        android:layout_x="106dp"
+        android:layout_y="279dp" />
+
+</AbsoluteLayout>

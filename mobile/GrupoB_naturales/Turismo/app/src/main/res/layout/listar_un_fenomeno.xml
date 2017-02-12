@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorFondo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Cotopaxi Vive El Turismo"
+        android:gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorFondo"/>
+
+    <LinearLayout
+        android:id="@+id/linearMaps"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:animateLayoutChanges="true"
+        android:layout_below="@+id/linearlayout_localizacion"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/iv_imagen_listarunfenomeno"
+                android:src="@drawable/circuitochico_plaza"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Plaza 25 de Mayo"
+                    android:textSize="22dp"
+                    android:id="@+id/tv_titulo_listarunfenomeno"
+                    android:textColor="@color/colorTextPrimary"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:fontFamily="sans-serif-smallcaps" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Es la plaza principal de la ciudad de San Juan y es donde se encuentra el kilómetro 0 de la provincia. Anteriormente la plaza principal estaba en Concepción, donde Juan Jufré fundó la ciudad en 1562, pero a cau- sa de una gran inundación y para proteger a los vecinos amenazados por las aguas de las crecidas veraniegas, en 1594 fue trasladada 15 cuadras al sur y establecida definitivamente en el lugar en el que se encuentra en la actualidad. El centro de la plaza está adornado por una añosa pero bien cuidada fuente y entre los espacios verdes forestados con palmeras, robles, cedros y plátanos; se destacan 2 importantes monumentos: uno a Fray Justo Santa María de Oro y el otro de Domingo Faustino Sarmiento rodeado de niños escolares."
+                android:id="@+id/tv_contenido_listarunfenomeno"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorText"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:gravity="left"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

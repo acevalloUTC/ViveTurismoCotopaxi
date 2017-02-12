@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruta3"
+
+    tools:context="com.example.asus1.paramosfi.RutaQuilotoa">
+    <ImageView
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bandera2"
+        android:layout_x="210dp"
+        android:layout_y="226dp"
+        android:id="@+id/imageView4"
+        android:layout_margin="0dp"
+        android:padding="0dp" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cho1"
+
+        android:layout_x="2dp"
+        android:layout_y="172dp" />
+
+
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn4"
+        android:background="@drawable/puntorojo"
+        android:layout_x="222dp"
+        android:layout_y="244dp"
+        android:layout_below="@+id/cho1"
+        android:layout_toStartOf="@+id/btn3"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="212dp" />
+    <Button
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/btn8"
+        android:background="@drawable/puntorojo"
+        android:layout_x="34dp"
+        android:layout_y="161dp"
+        android:layout_above="@+id/btn7"
+        android:layout_toStartOf="@+id/btn7"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="24dp" />
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn7"
+        android:background="@drawable/puntorojo"
+
+        android:layout_marginStart="67dp"
+        android:layout_alignBottom="@+id/btn4"
+        android:layout_toEndOf="@+id/cho1"
+        android:layout_marginBottom="54dp" />
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn6"
+        android:background="@drawable/puntorojo"
+        android:layout_x="86dp"
+        android:layout_y="280dp"
+        android:layout_below="@+id/btn7"
+        android:layout_alignStart="@+id/btn7" />
+
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn5"
+        android:background="@drawable/puntorojo"
+        android:layout_x="151dp"
+        android:layout_y="201dp"
+        android:layout_below="@+id/btn2"
+        android:layout_toEndOf="@+id/btn6"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn1"
+        android:background="@drawable/puntorojo"
+        android:layout_x="290dp"
+        android:layout_y="264dp"
+        android:layout_marginEnd="27dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn2"
+        android:background="@drawable/puntorojo"
+        android:layout_x="269dp"
+        android:layout_y="278dp"
+        android:layout_below="@+id/btn1"
+        android:layout_toStartOf="@+id/btn1"
+        android:layout_marginEnd="21dp" />
+    <Button
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:id="@+id/btn3"
+        android:background="@drawable/puntorojo"
+        android:layout_x="233dp"
+        android:layout_y="289dp"
+        android:layout_above="@+id/btn1"
+        android:layout_toStartOf="@+id/btn2"
+        android:layout_marginEnd="15dp" />
+
+</RelativeLayout>
