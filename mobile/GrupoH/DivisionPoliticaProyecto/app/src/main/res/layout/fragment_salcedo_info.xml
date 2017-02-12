@@ -5,16 +5,48 @@
     tools:context="layout.SalcedoInfo"
     android:background="@drawable/fondo1">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/franja1" />
+
     <ScrollView
         style="@style/layoutSimbolos"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
         android:id="@+id/scrollView2" >
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/flecha" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deslice para ver más imágenes."
+                    android:id="@+id/textView7" />
+            </LinearLayout>
 
             <HorizontalScrollView
                 android:background="@drawable/borde_imagenes"
@@ -90,11 +122,17 @@
                 android:layout_height="wrap_content"
                 android:text="El cantón se localiza en la zona central de la serranía ecuatoriana, tiene una temperatura que varía entre 7 a 14 °C, su altitud media es de 2650 m.s.n.m.; con una extesión de 468,2 km2, se encuentra a 14,8 km de la capital provincial."
                 android:id="@+id/textView5" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/franja1"
-                android:src="@drawable/franja1" />
+
         </LinearLayout>
     </ScrollView>
+
+        <ImageView
+            style="@style/franjaBaja"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/franja2"
+            android:src="@drawable/franja1" />
+    </LinearLayout>
+
 </RelativeLayout>

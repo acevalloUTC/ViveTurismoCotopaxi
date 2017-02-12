@@ -9,9 +9,10 @@
     </style>
 
     <style name="tituloCotopaxi">
+        <item name="android:textColor">#FF000000</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">25sp</item>
     </style>
 
     <style name="tituloDatos">
@@ -37,9 +38,11 @@
     <style name="texto">
         <item name="android:textColor">#FF000000</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_marginBottom">30dp</item>
         <item name="android:paddingLeft">10dp</item>
         <item name="android:paddingRight">10dp</item>
+        <item name="android:textAlignment">center</item>
         <item name="android:gravity">center</item>
     </style>
 
@@ -58,7 +61,8 @@
     </style>
 
     <style name="layoutSimbolos">
-        <item name="android:layout_margin">30dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_margin">5dp</item>
         <item name="android:paddingBottom">20dp</item>
 
     </style>
@@ -68,7 +72,9 @@
         <item name="android:paddingRight">10dp</item>
     </style>
 
-
+    <style name="franjaBaja">
+        <item name="android:layout_marginTop">60dp</item>
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

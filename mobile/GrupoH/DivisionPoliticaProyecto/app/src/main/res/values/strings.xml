@@ -7,6 +7,13 @@
     <string name="title_activity_canton_latacunga_menu">Latacunga</string>
     <string name="title_activity_latacunga_menu">Latacunga</string>
 
+
+    <!--copiado de proyecto viveTurismoGrupoB-->
+    <string name="drawer_open">Menú abierto</string>
+    <string name="not_available_text">N/A</string>
+    <string name="drawer_close">Menú cerrado</string>
+    <string name="title_activity_mapas">Mapas</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_la_mana_menu">La Mana</string>

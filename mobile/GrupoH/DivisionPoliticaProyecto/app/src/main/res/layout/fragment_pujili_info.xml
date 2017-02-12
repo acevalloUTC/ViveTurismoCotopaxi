@@ -5,12 +5,23 @@
     tools:context="layout.PujiliInfo"
     android:background="@drawable/fondo1">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/franja1" />
 
     <ScrollView
         style="@style/layoutSimbolos"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
         android:id="@+id/scrollView2"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="0dp"
@@ -21,6 +32,25 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/flecha" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deslice para ver más imágenes."
+                    android:id="@+id/textView7" />
+            </LinearLayout>
 
             <HorizontalScrollView
                 android:background="@drawable/borde_imagenes"
@@ -97,12 +127,16 @@
                 android:text="El Cantón Pujilí se caracteriza por ser boscoso y de clima templado, cuenta con temperarturas de entre 8 y 23 °C, una altitud de 2870 m.s.n.m. y una extensión territorial de 1318,32 km2; se encuentra a 10 km de la capital provincial."
                 android:id="@+id/textView5" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/franja1"
-                android:src="@drawable/franja1" />
         </LinearLayout>
     </ScrollView>
+
+        <ImageView
+            style="@style/franjaBaja"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/franja2"
+            android:src="@drawable/franja1" />
+    </LinearLayout>
 
 </RelativeLayout>

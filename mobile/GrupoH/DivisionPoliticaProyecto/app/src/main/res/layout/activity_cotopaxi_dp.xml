@@ -8,15 +8,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.divisionpoliticaproyecto.CotopaxiDP"
-    android:background="@drawable/cotopaxi"
-
-    >
+    android:background="@drawable/cotopaxidp">
 
     <TextView
         style="@style/tituloCotopaxi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cotopaxi"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Mapa Político de Cotopaxi"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
@@ -24,68 +25,77 @@
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button2"
+        android:id="@+id/saquisiliID"
         android:background="@drawable/btn_saquisili"
         android:onClick="Saquisili"
-        android:layout_marginBottom="31dp"
-        android:layout_above="@+id/button6"
-        android:layout_toStartOf="@+id/button8" />
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/pujiliID"
+        android:layout_toEndOf="@+id/pujiliID" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button3"
+        android:id="@+id/latacungaID"
         android:background="@drawable/btn_latacunga"
         android:onClick="Latacunga"
-        android:layout_alignTop="@+id/button2"
+        android:layout_alignTop="@+id/saquisiliID"
         android:layout_alignEnd="@+id/textView" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button4"
+        android:id="@+id/sigchosID"
         android:background="@drawable/btn_sigchos"
         android:onClick="Sigchos"
-        android:layout_above="@+id/button7"
-        android:layout_toEndOf="@+id/button5"
-        android:layout_marginStart="46dp"
-        android:layout_marginBottom="125dp" />
+        android:layout_marginTop="93dp"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/saquisiliID" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button5"
+        android:id="@+id/lamanaID"
         android:background="@drawable/btn_lamana"
-        android:layout_marginStart="31dp"
         android:onClick="LaMana"
-        android:layout_alignTop="@+id/button2"
-        android:layout_alignParentStart="true" />
+        android:layout_alignTop="@+id/saquisiliID"
+        android:layout_alignStart="@+id/textView" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button6"
+        android:id="@+id/pujiliID"
         android:background="@drawable/btn_pujili"
         android:onClick="Pujili"
-        android:layout_above="@+id/button8"
+        android:layout_above="@+id/salcedoID"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button7"
+        android:id="@+id/panguaID"
         android:background="@drawable/btn_pangua"
         android:layout_marginBottom="89dp"
         android:onClick="Pangua"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignStart="@+id/lamanaID" />
 
     <Button
         android:layout_width="45dp"
         android:layout_height="30dp"
-        android:id="@+id/button8"
+        android:id="@+id/salcedoID"
         android:background="@drawable/btn_salcedo"
-        android:layout_alignTop="@+id/button7"
-        android:layout_toStartOf="@+id/button3"
-        android:onClick="Salcedo"/>
+        android:onClick="Salcedo"
+        android:layout_alignTop="@+id/panguaID"
+        android:layout_toEndOf="@+id/saquisiliID" />
+
+    <TextView
+        style="@style/texto"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presione sobre una de las Banderas."
+        android:id="@+id/textView8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

@@ -6,6 +6,16 @@
     style="@style/fondo"
     android:background="@drawable/fondo1">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/imageView13"
+        android:src="@drawable/franja1" />
     <ScrollView
         style="@style/layoutSimbolos"
         android:layout_width="wrap_content"
@@ -25,11 +35,12 @@
             android:layout_height="match_parent"
             android:weightSum="1">
 
+
             <TextView
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bandera"
+                android:text="Bandera de Pujilí"
                 android:id="@+id/textView2" />
 
             <ImageView
@@ -42,7 +53,7 @@
                 style="@style/tituloDatos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Escudo"
+                android:text="Escudo de Pujilí"
                 android:id="@+id/textView5" />
 
             <ImageView
@@ -51,14 +62,17 @@
                 android:id="@+id/imageView2"
                 android:src="@drawable/escudo_pujili" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/franja1"
-                android:src="@drawable/franja1" />
+
         </LinearLayout>
 
     </ScrollView>
-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView17"
+            android:src="@drawable/franja1" />
+    </LinearLayout>
 
 </RelativeLayout>
